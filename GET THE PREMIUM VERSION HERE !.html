@@ -1,0 +1,1831 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><!-- start: showthread -->
+<html xml:lang="en" lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Emerald Extended [Multicolor, Modern &amp; Responsive | Incorporated Premium Plugins]</title>
+<!-- start: headerinclude -->
+<link rel="alternate" type="application/rss+xml" title="Latest Threads (RSS 2.0)" href="https://community.mybb.com/syndication.php" />
+<link rel="alternate" type="application/atom+xml" title="Latest Threads (Atom 1.0)" href="https://community.mybb.com/syndication.php?type=atom1.0" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<script type="text/javascript" src="https://community.mybb.com/jscripts/jquery.js?ver=1823"></script>
+<script type="text/javascript" src="https://community.mybb.com/jscripts/jquery.plugins.min.js?ver=1821"></script>
+<script type="text/javascript" src="https://community.mybb.com/jscripts/general.js?ver=1821"></script>
+<link href="https://fonts.googleapis.com/css?family=Asap:400,600,600i|Open+Sans:300,400,700" rel="stylesheet">
+<link type="text/css" rel="stylesheet" href="https://community.mybb.com/cache/themes/theme6/global.min.css" />
+<link type="text/css" rel="stylesheet" href="https://community.mybb.com/cache/themes/theme1/star_ratings.min.css" />
+<link type="text/css" rel="stylesheet" href="https://community.mybb.com/cache/themes/theme1/showthread.min.css" />
+<link type="text/css" rel="stylesheet" href="https://community.mybb.com/cache/themes/theme1/css3.min.css" />
+<link type="text/css" rel="stylesheet" href="https://community.mybb.com/cache/themes/theme6/site.min.css" />
+<link type="text/css" rel="stylesheet" href="https://community.mybb.com/cache/themes/theme6/team_roles.min.css" />
+
+<script type="text/javascript">
+<!--
+	lang.unknown_error = "An unknown error has occurred.";
+
+	lang.select2_match = "One result is available, press enter to select it.";
+	lang.select2_matches = "{1} results are available, use up and down arrow keys to navigate.";
+	lang.select2_nomatches = "No matches found";
+	lang.select2_inputtooshort_single = "Please enter one or more character";
+	lang.select2_inputtooshort_plural = "Please enter {1} or more characters";
+	lang.select2_inputtoolong_single = "Please delete one character";
+	lang.select2_inputtoolong_plural = "Please delete {1} characters";
+	lang.select2_selectiontoobig_single = "You can only select one item";
+	lang.select2_selectiontoobig_plural = "You can only select {1} items";
+	lang.select2_loadmore = "Loading more results&hellip;";
+	lang.select2_searching = "Searching&hellip;";
+
+	var templates = {
+		modal: '<div class=\"modal\">\
+	<div style=\"overflow-y: auto; max-height: 400px;\">\
+		<table border=\"0\" cellspacing=\"0\" cellpadding=\"5\" class=\"tborder\">\
+			<tr>\
+				<td class=\"thead\" colspan=\"2\"><strong>__message__</strong></td>\
+			</tr>\
+			<tr>\
+				<td colspan=\"2\" class=\"trow1\">\
+				<div style=\"text-align: center\" class=\"modal_buttons\">__buttons__</div></td>\
+			</tr>\
+		</table>\
+	</div>\
+</div>',
+		modal_button: '<input type=\"submit\" class=\"button\" value=\"__title__\"/>&nbsp;'
+	};
+
+	var cookieDomain = "community.mybb.com";
+	var cookiePath = "/";
+	var cookiePrefix = "";
+	var cookieSecureFlag = "1";
+	var deleteevent_confirm = "Are you sure you want to delete this event?";
+	var removeattach_confirm = "Are you sure you want to remove the selected attachment from this post?";
+	var loading_text = 'Loading. <br />Please Wait&hellip;';
+	var saving_changes = 'Saving changes&hellip;';
+	var use_xmlhttprequest = "1";
+	var my_post_key = "2dc1a243a71d3265d1e318b99391921b";
+	var rootpath = "https://community.mybb.com";
+	var imagepath = "https://community.mybb.com/images";
+  	var yes_confirm = "Yes";
+	var no_confirm = "No";
+	var MyBBEditor = null;
+	var spinner_image = "https://community.mybb.com/images/spinner.gif";
+	var spinner = "<img src='" + spinner_image +"' alt='' />";
+	var modal_zindex = 9999;
+// -->
+</script>
+<!-- end: headerinclude -->
+<script type="text/javascript">
+<!--
+	var quickdelete_confirm = "Are you sure you want to delete this post?";
+	var quickrestore_confirm = "Are you sure you want to restore this post?";
+	var allowEditReason = "1";
+	lang.save_changes = "Save Changes";
+	lang.cancel_edit = "Cancel Edit";
+	lang.quick_edit_update_error = "There was an error editing your reply:";
+	lang.quick_reply_post_error = "There was an error posting your reply:";
+	lang.quick_delete_error = "There was an error deleting your reply:";
+	lang.quick_delete_success = "The post was deleted successfully.";
+	lang.quick_delete_thread_success = "The thread was deleted successfully.";
+	lang.quick_restore_error = "There was an error restoring your reply:";
+	lang.quick_restore_success = "The post was restored successfully.";
+	lang.editreason = "Edit Reason";
+	lang.post_deleted_error = "You can not perform this action to a deleted post.";
+	lang.softdelete_thread = "Soft Delete Thread";
+	lang.restore_thread = "Restore Thread";
+// -->
+</script>
+<!-- jeditable (jquery) -->
+<script type="text/javascript" src="https://community.mybb.com/jscripts/report.js?ver=1820"></script>
+<script src="https://community.mybb.com/jscripts/jeditable/jeditable.min.js"></script>
+<script type="text/javascript" src="https://community.mybb.com/jscripts/thread.js?ver=1822"></script>
+<link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.20.0/themes/prism.min.css" integrity="sha256-cuvic28gVvjQIo3Q4hnRpQSNB0aMw3C+kjkR0i+hrWg=" crossorigin="anonymous" />
+<link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.20.0/plugins/line-numbers/prism-line-numbers.min.css" integrity="sha256-Afz2ZJtXw+OuaPX10lZHY7fN1+FuTE/KdCs+j7WZTGc=" crossorigin="anonymous" />
+<link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.20.0/plugins/show-invisibles/prism-show-invisibles.min.css" integrity="sha256-nOfkEPu/TzBvIxN8D/vW8weOUczzDbxRjgik/hA2hBI=" crossorigin="anonymous" />
+<link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.20.0/plugins/toolbar/prism-toolbar.min.css" integrity="sha256-P45OhhEWm49G8sadt2n5rDaWLa3xZbDOQhJliuaojH0=" crossorigin="anonymous" />
+
+</head>
+<body>
+	<!-- start: header -->
+<div id="container">
+	<a name="top" id="top"></a>
+	<header class="header">
+        <div class="wrapper">
+            <h1 class="header__title">
+                <a href="https://mybb.com/" class="logo logo--light  header__title__logo">
+					<span class="logo__icon"><?xml version="1.0" encoding="UTF-8"?>
+				<svg width="48px" height="44px" viewBox="0 0 48 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+					<!-- Generator: Sketch 47 (45396) - http://www.bohemiancoding.com/sketch -->
+					<title>Artboard</title>
+					<desc>Created with Sketch.</desc>
+					<defs></defs>
+					<g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+						<g id="Artboard" fill-rule="nonzero" fill="#FFFFFF">
+							<g id="logo-knockout-copy">
+								<path d="M5.41935484,44 L7.95197907,35.6667779 C3.06986629,31.9223098 0,26.494791 0,20.4561403 C0,9.15852599 10.745166,0 24,0 C37.254834,0 48,9.15852599 48,20.4561403 C48,26.0841966 45.7058007,29.2716901 41.3907516,32.9702501 L43.9993644,40.9122808 L38.2604176,37.3583502 C34.5245211,39.4029519 28.769472,40.9122808 24,40.9122808 C20.092974,40.9122808 16.4040001,40.1165437 13.1439925,38.70484 L5.41935484,44 Z M1.93548387,20.4271865 C1.93548387,20.7065228 1.93548387,20.9819251 1.95896845,21.2573273 C1.95896845,21.3596196 1.95896845,21.4619119 1.97853893,21.564204 C1.97853893,21.7333798 2.0059376,21.8986211 2.02159398,22.0638623 C2.03725038,22.2291038 2.04507856,22.3156588 2.06073495,22.4572942 C2.08943833,22.6854844 2.12336049,22.9123635 2.16250145,23.1379311 C2.39343315,18.5347798 5.29377849,14.557185 8.72252684,11.6025126 C14.0574401,6.99936133 23.7487425,2.69521815 30.0621798,8.07342996 C30.8890816,8.79245068 31.629916,9.6057692 32.2697302,10.4969695 C34.9565273,11.4060661 37.4709391,12.7655422 39.7065131,14.5178418 C41.8357815,16.193861 44.2808717,18.4403183 45.3036707,21.8249337 L45.3036707,20.4271865 C45.3036707,10.194027 35.596712,1.89655173 23.6195773,1.89655173 C11.6424427,1.89655173 1.93548387,10.194027 1.93548387,20.4271865 Z M29.4043584,33.4960212 C22.914631,35.870793 18.3624295,36.9698204 15.7477539,36.7931034 L14.10901,37.5807562 C15.1305188,37.9329397 16.9948039,38.3084535 18.0563681,38.5312411 C18.3959016,38.6019278 19.8048322,38.822824 20.1336716,38.8682655 C20.6362882,38.9137071 20.9918627,38.9465259 21.2003951,38.9667221 L22.5398149,39.042458 C22.9408387,39.042458 23.3057704,39.0689655 23.6947636,39.0689655 C23.9540924,39.0689655 24.3885347,39.061392 24.9980911,39.0462448 C25.176324,39.0462448 25.5158575,39.0298354 26.0166916,38.9970165 C26.2305711,38.9785033 26.6516462,38.9317995 27.2799169,38.8569051 L28.2945073,38.7054334 C28.4887811,38.6734561 28.8978253,38.5939334 29.5216402,38.4668656 L30.9773569,38.1033336 C31.1484604,38.0553675 31.7994558,37.8458317 32.9303431,37.4747261 C33.5211849,37.2576166 36.4278342,36.1328033 36.6082949,36.0419202 L35.2154964,34.8965517 C34.5326962,34.9428822 33.3810792,34.9833073 32.1937046,34.66313 C31.5139821,34.4798418 30.5842,34.0908056 29.4043584,33.4960212 Z M43.4225067,24.7924545 C43.5157695,20.7652592 40.3191089,17.602678 37.2510867,15.5874366 C37.0195378,15.4340196 36.7804851,15.2827944 36.5339285,15.1337607 C35.7730455,14.6660954 34.985922,14.2445673 34.1766325,13.8713583 C37.7334802,19.6014819 38.0743715,28.8558123 31.8933036,32.2353687 C31.6681867,32.3570066 31.4366378,32.4753568 31.2050889,32.5871321 C32.789582,33.1152509 33.9714208,33.3793103 34.7506053,33.3793103 C35.2154964,33.3793103 35.6604218,33.2824737 36.0853816,33.0888005 L40.7146716,36.9562279 L38.9008724,32.4950819 L38.7079149,32.0249684 C38.7222947,32.0095419 43.3581876,27.7216227 43.4225067,24.7924545 Z M26.7312349,8.9867374 C21.7011458,6.17723275 15.5827789,9.20165527 11.5060533,12.3713528 C7.58888631,15.4045562 4.03942091,18.9775419 4.66568895,24.2098177 C5.13239825,28.0961094 7.4579668,31.7018301 10.6930201,34.0677288 C10.7063167,34.0828947 10.1637684,35.6818923 9.0653753,38.8647215 L13.598063,35.0132626 C16.5537792,34.8590362 18.4994008,34.664518 19.4349277,34.4297082 C23.6088407,33.3820892 34.2598453,31.9772883 34.2598453,23.5387214 C34.2598453,18.4403183 31.888971,11.8644891 26.7312349,8.9867374 Z" id="Combined-Shape"></path>
+								<path d="M15,13.023968 C15,13.023968 19.7656676,8.22765416 25.8555858,10.7160238 C32.4196185,13.3998546 33,23 33,23 C25.9455042,7.35183822 15,13.023968 15,13.023968 L15,13.023968 L15,13.023968 Z" id="Path"></path>
+							</g>
+						</g>
+					</g>
+				</svg></span>
+					<span class="logo__text">MyBB</span>
+				</a>
+            </h1>
+            <input type="checkbox" class="header__checkbox" id="show-site-search">
+            <nav class="main-menu">
+                <ul class="main-menu__links">
+                    <li class="main-menu__links__gap">&nbsp;</li>
+                    <li class="main-menu__links__item main-menu__links__item--home">
+                        <a href="https://mybb.com/" class="main-menu__links__item__link">Home</a>
+                    </li>
+                    <li class="main-menu__links__item main-menu__links__item--download">
+                        <a href="https://mybb.com/download/" class="main-menu__links__item__link">Download</a>
+                    </li>
+                    <li class="main-menu__links__item main-menu__links__item--community main-menu__links__item--active">
+                        <a href="https://community.mybb.com/" class="main-menu__links__item__link">Community</a>
+                    </li>
+                    <li class="main-menu__links__item main-menu__links__item--extend">
+                        <a href="https://community.mybb.com/mods.php" class="main-menu__links__item__link">Extend</a>
+                    </li>
+                    <li class="main-menu__links__item main-menu__links__item--docs">
+                        <a href="https://docs.mybb.com/" class="main-menu__links__item__link">Docs</a>
+                    </li>
+                    <li class="main-menu__links__item main-menu__links__item--blog">
+                        <a href="https://blog.mybb.com/" class="main-menu__links__item__link">Blog</a>
+                    </li>
+                    <li class="main-menu__links__item main-menu__links__item--search">
+                        <label class="main-menu__links__item__icon main-menu__links__item--search__icon" for="show-site-search"><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"/></svg></span></label>
+                    </li>
+                </ul>
+            </nav>
+            <div class="site-search">
+				<form action="https://community.mybb.com/search.php" method="post">
+					<input type="hidden" name="action" value="do_search" />
+					<input value="" id="qWidget" name="keywords" maxlength="255" type="text" placeholder="Search Forums" class="site-search__field" />
+					<button class="site-button site-search__button site-search__button--search" id="submit" type="submit"><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"/></svg></span> Search</button>
+					<label class="site-button site-button--dark site-search__button site-search__button--cancel" for="show-site-search"><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path d="M323.1 441l53.9-53.9c9.4-9.4 9.4-24.5 0-33.9L279.8 256l97.2-97.2c9.4-9.4 9.4-24.5 0-33.9L323.1 71c-9.4-9.4-24.5-9.4-33.9 0L192 168.2 94.8 71c-9.4-9.4-24.5-9.4-33.9 0L7 124.9c-9.4 9.4-9.4 24.5 0 33.9l97.2 97.2L7 353.2c-9.4 9.4-9.4 24.5 0 33.9L60.9 441c9.4 9.4 24.5 9.4 33.9 0l97.2-97.2 97.2 97.2c9.3 9.3 24.5 9.3 33.9 0z"/></svg></span> Cancel</label>
+				</form>
+            </div>
+        </div>
+    </header>
+<div id="forum">
+      <div id="header">
+			<div id="panel">
+				<div class="upper">
+					<div class="wrapper">
+						<nav id="forumMenu"><ul class="menu top_links">
+						<li><a href="https://community.mybb.com/search.php" class="search">Search</a></li>
+						<li><a href="https://community.mybb.com/memberlist.php" class="memberlist">Member List</a></li>
+						<li><a href="https://community.mybb.com/calendar.php" class="calendar">Calendar</a></li>
+						<li><a href="https://community.mybb.com/misc.php?action=help" class="help">Help</a></li>
+					</ul></nav>
+						<!-- start: header_welcomeblock_member -->
+<!-- Continuation of div(class="upper") as opened in the header template -->
+	<span class="welcome"><strong>Welcome back, <a href="https://community.mybb.com/user-76958.html">AmazOuz</a></strong>. You last visited: <span title="2020-08-07">Today</span>, 06:21 PM <a href="https://community.mybb.com/member.php?action=logout&amp;logoutkey=b2bf3182af12296cd6f48e0402689990" class="logout">Log Out</a></span>
+	</div>
+</div>
+<div class="lower">
+	<div class="wrapper">
+		<ul class="menu panel_links">
+			<!-- start: header_welcomeblock_member_user -->
+<li><a href="https://community.mybb.com/usercp.php" class="usercp">User CP</a></li>
+<!-- end: header_welcomeblock_member_user -->
+			
+			
+		</ul>
+		<ul class="menu user_links">
+			
+			<!-- start: header_welcomeblock_member_search -->
+<li><a href="https://community.mybb.com/search.php?action=getnew">View New Posts</a></li>
+<li><a href="https://community.mybb.com/search.php?action=getdaily">View Today's Posts</a></li>
+<!-- end: header_welcomeblock_member_search -->
+			<!-- start: header_welcomeblock_member_pms -->
+<li><a href="https://community.mybb.com/private.php">Private Messages</a> (Unread 3, Total 486)</li>
+<!-- end: header_welcomeblock_member_pms -->
+		</ul>
+	</div>
+	<div class="clear"></div>
+</div>
+<!-- end: header_welcomeblock_member -->
+					<!-- </div> in header_welcomeblock_member and header_welcomeblock_guest -->
+				<!-- </div> in header_welcomeblock_member and header_welcomeblock_guest -->
+			</div>
+		</div>
+		<div id="content">
+ 			<div id="main" role="main">
+			<div class="wrapper">
+				<!-- start: global_pm_alert -->
+<div class="pm_alert" id="pm_notice">
+	<div class="float_right"><a href="https://community.mybb.com/private.php?action=dismiss_notice&amp;my_post_key=2dc1a243a71d3265d1e318b99391921b" title="Dismiss this notice" onclick="return MyBB.dismissPMNotice('https://community.mybb.com/')"><img src="https://community.mybb.com/images/dismiss_notice.png" alt="Dismiss this notice" title="Dismiss this notice" /></a></div>
+	<div><strong>You have 3 unread private messages.</strong> The most recent is from <a href="https://community.mybb.com/user-129554.html">GodLess101</a> titled <a href="https://community.mybb.com/private.php?action=read&amp;pmid=548119" style="font-weight: bold;">NewPoints Style</a></div>
+</div>
+<!-- end: global_pm_alert -->
+				
+				
+				
+				
+				
+				
+                                
+				<!---->
+				<!-- start: nav -->
+
+<div class="navigation">
+<!-- start: nav_bit -->
+<span class="nav_bit"><a href="https://community.mybb.com/index.php">MyBB Community Forums</a></span><!-- start: nav_sep -->
+<span class="nav_sep">&rsaquo;</span>
+<!-- end: nav_sep -->
+<!-- end: nav_bit --><!-- start: nav_bit -->
+<span class="nav_bit"><a href="forum-12.html">Community</a></span><!-- start: nav_sep -->
+<span class="nav_sep">&rsaquo;</span>
+<!-- end: nav_sep -->
+<!-- end: nav_bit --><!-- start: nav_bit -->
+<span class="nav_bit"><a href="forum-202.html">Marketplace</a></span><!-- start: nav_sep -->
+<span class="nav_sep">&rsaquo;</span>
+<!-- end: nav_sep -->
+<!-- end: nav_bit --><!-- start: nav_bit -->
+<span class="nav_bit"><a href="forum-204.html">Themes</a></span><!-- start: nav_dropdown -->
+ <img src="https://community.mybb.com/images/arrow_down.png" alt="v" title="" class="pagination_breadcrumb_link" id="breadcrumb_multipage" /><!-- start: multipage_breadcrumb -->
+<div id="breadcrumb_multipage_popup" class="pagination pagination_breadcrumb" style="display: none;">
+<!-- start: multipage_page_link_current -->
+ <a href="forum-204.html" class="pagination_current">1</a>
+<!-- end: multipage_page_link_current --><!-- start: multipage_page -->
+<a href="forum-204-page-2.html" class="pagination_page">2</a>
+<!-- end: multipage_page --><!-- start: multipage_page -->
+<a href="forum-204-page-3.html" class="pagination_page">3</a>
+<!-- end: multipage_page --><!-- start: multipage_nextpage -->
+<a href="forum-204-page-2.html" class="pagination_next">Next &raquo;</a>
+<!-- end: multipage_nextpage -->
+</div>
+<script type="text/javascript">
+// <!--
+	if(use_xmlhttprequest == "1")
+	{
+		$("#breadcrumb_multipage").popupMenu();
+	}
+// -->
+</script>
+<!-- end: multipage_breadcrumb -->
+<!-- end: nav_dropdown -->
+<!-- end: nav_bit --><!-- start: nav_sep_active -->
+<br /><img src="https://community.mybb.com/images/nav_bit.png" alt="" />
+<!-- end: nav_sep_active --><!-- start: nav_bit_active -->
+<span class="active"><span style="color: #3016B0; font-weight: bold;">[For 1.8]</span>&nbsp;Emerald Extended [Multicolor, Modern &amp; Responsive | Incorporated Premium Plugins]</span>
+<!-- end: nav_bit_active -->
+</div>
+<!-- end: nav -->
+				<br />
+<!-- end: header -->
+	
+	
+	<div class="float_left">
+		<!-- start: multipage -->
+<div class="pagination">
+<span class="pages">Pages (6):</span>
+<!-- start: multipage_page_current -->
+ <span class="pagination_current">1</span>
+<!-- end: multipage_page_current --><!-- start: multipage_page -->
+<a href="thread-224006-page-2.html" class="pagination_page">2</a>
+<!-- end: multipage_page --><!-- start: multipage_page -->
+<a href="thread-224006-page-3.html" class="pagination_page">3</a>
+<!-- end: multipage_page --><!-- start: multipage_page -->
+<a href="thread-224006-page-4.html" class="pagination_page">4</a>
+<!-- end: multipage_page --><!-- start: multipage_page -->
+<a href="thread-224006-page-5.html" class="pagination_page">5</a>
+<!-- end: multipage_page --><!-- start: multipage_end -->
+ <a href="thread-224006-page-6.html" class="pagination_last">6</a>
+<!-- end: multipage_end --><!-- start: multipage_nextpage -->
+<a href="thread-224006-page-2.html" class="pagination_next">Next &raquo;</a>
+<!-- end: multipage_nextpage -->
+</div>
+<!-- end: multipage -->
+	</div>
+	<div class="float_right">
+		<!-- start: showthread_newreply -->
+<a href="newreply.php?tid=224006" class="button new_reply_button"><span>New Reply</span></a>&nbsp;
+<!-- end: showthread_newreply -->
+	</div>
+	<!-- start: showthread_ratethread -->
+<div style="margin-top: 6px; padding-right: 10px;" class="float_right">
+		<script type="text/javascript">
+		<!--
+			lang.ratings_update_error = "There was an error updating the rating.";
+		// -->
+		</script>
+		<script type="text/javascript" src="https://community.mybb.com/jscripts/rating.js?ver=1821"></script>
+		<div class="inline_rating">
+			<strong class="float_left" style="padding-right: 10px;">Thread Rating:</strong>
+			<ul class="star_rating star_rating_notrated" id="rating_thread_224006">
+				<li style="width: 80%" class="current_rating" id="current_rating_224006">3 Vote(s) - 3.67 Average</li>
+				<li><a class="one_star" title="1 star out of 5" href="./ratethread.php?tid=224006&amp;rating=1&amp;my_post_key=2dc1a243a71d3265d1e318b99391921b">1</a></li>
+				<li><a class="two_stars" title="2 stars out of 5" href="./ratethread.php?tid=224006&amp;rating=2&amp;my_post_key=2dc1a243a71d3265d1e318b99391921b">2</a></li>
+				<li><a class="three_stars" title="3 stars out of 5" href="./ratethread.php?tid=224006&amp;rating=3&amp;my_post_key=2dc1a243a71d3265d1e318b99391921b">3</a></li>
+				<li><a class="four_stars" title="4 stars out of 5" href="./ratethread.php?tid=224006&amp;rating=4&amp;my_post_key=2dc1a243a71d3265d1e318b99391921b">4</a></li>
+				<li><a class="five_stars" title="5 stars out of 5" href="./ratethread.php?tid=224006&amp;rating=5&amp;my_post_key=2dc1a243a71d3265d1e318b99391921b">5</a></li>
+			</ul>
+		</div>
+</div>
+<!-- end: showthread_ratethread -->
+	<table border="0" cellspacing="0" cellpadding="5" class="tborder tfixed clear">
+		<tr>
+			<td class="thead">
+				<div class="float_right">
+					<span class="smalltext"><strong><a href="javascript:void(0)" id="thread_modes">Thread Modes</a></strong></span>
+				</div>
+				<div>
+					<strong><span style="color: #3016B0; font-weight: bold;">[For 1.8]</span>&nbsp;Emerald Extended [Multicolor, Modern &amp; Responsive | Incorporated Premium Plugins]</strong>
+				</div>
+			</td>
+		</tr>
+<tr><td id="posts_container">
+	<div id="posts">
+		<!-- start: postbit -->
+
+<a name="pid1333477" id="pid1333477"></a>
+<div class="post " style="" id="post_1333477">
+<div class="post_author">
+	<!-- start: postbit_avatar -->
+<div class="author_avatar"><a href="user-76958.html"><img src="https://community.mybb.com/uploads/avatars/avatar_76958.jpg?dateline=1513619535" alt="" width="70" height="70" /></a></div>
+<!-- end: postbit_avatar -->
+	<div class="author_information">
+			<strong><span class="largetext"><a href="https://community.mybb.com/user-76958.html">AmazOuz</a></span></strong> <!-- start: postbit_online -->
+<a href="online.php" title="Online"><img src="https://community.mybb.com/images/buddy_online.png" border="0" alt="Online" class="buddy_status" /></a>
+<!-- end: postbit_online --><br />
+			<span class="smalltext">
+				Developer<br />
+				<img src="images/star.png" border="0" alt="*" /><img src="images/star.png" border="0" alt="*" /><img src="images/star.png" border="0" alt="*" /><img src="images/star.png" border="0" alt="*" /><br />
+				
+			</span>
+	</div>
+	<div class="author_statistics">
+		<!-- start: postbit_author_user -->
+
+	Posts: 253<br />
+	Threads: 33<br />
+	Joined: Sep 2013
+	<!-- start: postbit_reputation -->
+<br />Reputation: <!-- start: postbit_reputation_formatted_link -->
+<a href="reputation.php?uid=76958"><strong class="reputation_positive">14</strong></a>
+<!-- end: postbit_reputation_formatted_link -->
+<!-- end: postbit_reputation -->
+<!-- end: postbit_author_user -->
+	</div>
+</div>
+<div class="post_content">
+	<div class="post_head">
+		<!-- start: postbit_posturl -->
+<div class="float_right" style="vertical-align: top">
+<strong><a href="thread-224006-post-1333477.html#pid1333477" title="Emerald Extended [Multicolor, Modern &amp; Responsive | Incorporated Premium Plugins]">#1</a></strong>
+
+</div>
+<!-- end: postbit_posturl -->
+		
+		<span class="post_date">2019-07-24, 12:24 AM <span class="post_edit" id="edited_by_1333477"><!-- start: postbit_editedby -->
+<span class="edited_post">(This post was last modified: 2020-04-17, 12:53 AM by <a href="https://community.mybb.com/user-76958.html">AmazOuz</a>. Edited 21 times in total.)</span>
+<!-- end: postbit_editedby --></span>
+		
+	</div>
+	<div class="post_body scaleimages" id="pid_1333477">
+<div class="float_right"></div>
+		<div style="text-align: center;" class="mycode_align"><img src="https://camo.mybb.com/aa3e8169cfe21b20d2be041670ebdc58a4fa22c2/68747470733a2f2f692e6962622e636f2f70316a307164622f5072657a312e706e67" loading="lazy"  alt="[Image: Prez1.png]" class="mycode_img" /><br />
+<br />
+<iframe width="560" height="315" src="//www.youtube.com/embed/aXPmgHtUAFc" frameborder="0" allowfullscreen></iframe></div>
+<br />
+<span style="font-size: medium;" class="mycode_size"><span style="font-weight: bold;" class="mycode_b"><span style="color: #ff3333;" class="mycode_color">GET THE THEME NOW FOR 20&#36; (automatic delivery) :</span></span> <a href="https://gum.co/lGcEA" target="_blank" rel="noopener" class="mycode_url">https://gum.co/lGcEA</a> </span><br />
+<span style="font-size: medium;" class="mycode_size"><span style="font-weight: bold;" class="mycode_b">Important :</span> If you want to avoid the 20% VAT, send manually the 20&#36; to <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="c7a5b2b4aea9a2b4b487a3a2b1a2aba8b7a2aaa2a9b3e9a3a2b4aea0a9">[email&#160;protected]</a> via Paypal. The delivery (manual) will sent to the paypal email you paid with. Contact me via PM for Bitcoin</span><br />
+<br />
+This is the paid extended version of the famous Emerald MyBB theme (<a href="https://community.mybb.com/mods.php?action=view&amp;pid=1037" target="_blank" rel="noopener" class="mycode_url">https://community.mybb.com/mods.php?acti...w&amp;pid=1037</a>) <br />
+<br />
+<span style="font-weight: bold;" class="mycode_b">SCREENSHOTS :</span> <br />
+<br />
+<pre class="block-code line-numbers language-none"><code class="language-none">Index : https://www.noelshack.com/2019-30-3-1563925416-8.png - https://www.noelshack.com/2019-30-3-1563925415-10.png
+Postbit : https://www.noelshack.com/2019-30-3-1563925415-9.png - https://www.noelshack.com/2019-30-3-1563925416-11.png
+Profile : https://www.noelshack.com/2019-30-3-1563925331-6.jpg
+Sidebar : https://www.noelshack.com/2019-30-3-1563925415-7.png
+Mobile : https://www.noelshack.com/2019-30-3-1563925331-1.png - https://www.noelshack.com/2019-30-3-1563925331-2.png
+User CP : https://www.noelshack.com/2019-30-3-1563925768-12.png
+Theme Settings : https://www.noelshack.com/2019-30-3-1563925331-3.jpg - https://www.noelshack.com/2019-30-3-1563925331-4.jpg - https://www.noelshack.com/2019-30-3-1563925331-5.jpg</code></pre><br />
+<span style="font-weight: bold;" class="mycode_b">SEE THE THEME LIVE :</span><br />
+<br />
+Our forums use actually Emerald Extended : <a href="https://developement.design/forum/" target="_blank" rel="noopener" class="mycode_url">https://developement.design/forum/</a><br />
+If you wanna see the pure theme without our edits, go to Edit Profile (<a href="https://developement.design/forum/usercp.php?action=options" target="_blank" rel="noopener" class="mycode_url">https://developement.design/forum/usercp...on=options</a>) &amp; set "Emerald Extended" as your theme<br />
+<br />
+<span style="font-weight: bold;" class="mycode_b">IMPORTANT NOTES :</span><br />
+<br />
+# Read carefully the README file<br />
+# No refund once you got the files<br />
+<br />
+<span style="font-weight: bold;" class="mycode_b"><span style="color: #ff4136;" class="mycode_color">NEW!!</span> DARK VERSION : </span><br />
+<br />
+<span style="color: #333333;" class="mycode_color"><span style="font-size: small;" class="mycode_size">You can get the dark+light Emerald Extended package for 25&#36; via Gumroad : </span></span><a href="https://gum.co/GwbQb" target="_blank" rel="noopener" class="mycode_url"><span style="color: #007fd0;" class="mycode_color"><span style="font-size: small;" class="mycode_size">https://gum.co/GwbQb</span></span></a><br />
+<span style="color: #333333;" class="mycode_color"><span style="font-size: small;" class="mycode_size">This first post will be edited when the new thread design &amp; ads are done.</span></span><br />
+<span style="color: #333333;" class="mycode_color"><span style="font-size: small;" class="mycode_size">Screens of the dark version : </span></span><a href="http://prntscr.com/p8r5c9" target="_blank" rel="noopener" class="mycode_url"><span style="color: #007fd0;" class="mycode_color"><span style="font-size: small;" class="mycode_size">http://prntscr.com/p8r5c9</span></span></a><span style="color: #333333;" class="mycode_color"><span style="font-size: small;" class="mycode_size"> - </span></span><a href="http://prntscr.com/p8r5kz" target="_blank" rel="noopener" class="mycode_url"><span style="color: #007fd0;" class="mycode_color"><span style="font-size: small;" class="mycode_size">http://prntscr.com/p8r5kz</span></span></a><span style="color: #333333;" class="mycode_color"><span style="font-size: small;" class="mycode_size"> - </span></span><a href="http://prntscr.com/p8r5ug" target="_blank" rel="noopener" class="mycode_url"><span style="color: #007fd0;" class="mycode_color"><span style="font-size: small;" class="mycode_size">http://prntscr.com/p8r5ug</span></span></a><span style="color: #333333;" class="mycode_color"><span style="font-size: small;" class="mycode_size"> - </span></span><a href="http://prntscr.com/p8r64m" target="_blank" rel="noopener" class="mycode_url"><span style="color: #007fd0;" class="mycode_color"><span style="font-size: small;" class="mycode_size">http://prntscr.com/p8r64m</span></span></a><br />
+<span style="color: #333333;" class="mycode_color"><span style="font-size: small;" class="mycode_size">(You can see it live by going to our board developement.design/forum/ &amp; change the default theme via user cp to [Dark] Emerald Extended)</span></span><br />
+<br />
+<span style="color: #333333;" class="mycode_color"><span style="font-size: small;" class="mycode_size">You can also send the 25&#36; to </span></span><span style="color: #333333;" class="mycode_color"><span style="font-size: small;" class="mycode_size"><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="afcddadcc6c1cadcdcefcbcad9cac3c0dfcac2cac1db81cbcadcc6c8c1">[email&#160;protected]</a></span></span><span style="color: #333333;" class="mycode_color"><span style="font-size: small;" class="mycode_size"> directly via paypal so you avoid the 20% VAT, then i'll deliver the files to your paypal email.</span></span><br />
+<br />
+<span style="font-weight: bold;" class="mycode_b">FEEDBACK :</span><br />
+<br />
+<blockquote class="mycode_quote"><cite><span> (2019-07-24, 01:23 PM)</span>screamo Wrote:  <a href="https://community.mybb.com/post-1333507.html#pid1333507" class="quick_jump"></a></cite>I love this new design of Emerald version, it's fully responsive ,catchy on the eye and friendly user. And also the the support of the creator is responsive all the time.</blockquote><blockquote class="mycode_quote"><cite><span> (2019-08-06, 01:20 PM)</span>SFKandersen Wrote:  <a href="https://community.mybb.com/post-1334070.html#pid1334070" class="quick_jump"></a></cite>Amazing theme, I would give it a 10/10. My members &amp; Developers has reported this theme as one of our best theme changes so far. I would without a doubt recommend this to anyone looking for a premium, well organized, user-friendly, and astonishing theme to take this one without a doubt.<br />
+<br />
+Best of luck.</blockquote><br />
+<span style="font-weight: bold;" class="mycode_b">CONTACT :</span><br />
+<br />
+Website : <a href="https://developement.design/" target="_blank" rel="noopener" class="mycode_url">https://developement.design/</a><br />
+Skype : ef.team<br />
+Discord: amazouzd&amp;d#6048<br />
+Whatsapp : +33 753 045 886<br />
+<br />
+Best Regards,<br />
+AmazOuz
+	</div>
+	
+	
+	<div class="post_meta" id="post_meta_1333477">
+		
+		<div class="float_right">
+			
+		</div>
+	</div>
+	<!-- start: postbit_editreason -->
+<div class="editreason" id="editreason_1333477_original" style="display: none;"><label for="editreason">Edit Reason:</label> <input type="text" class="textbox" style="margin: 6px 0;" name="editreason" size="40" maxlength="150" id="quickedit_1333477_editreason_original" value="" /><br /></div>
+<!-- end: postbit_editreason -->
+</div>
+<div class="post_controls">
+	<div class="postbit_buttons author_buttons float_left">
+		<!-- start: postbit_www -->
+<a href="https://developement.design/" target="_blank" rel="noopener" title="Visit this user's website" class="postbit_website"><span>Website</span></a>
+<!-- end: postbit_www --><!-- start: postbit_find -->
+<a href="search.php?action=finduser&amp;uid=76958" title="Find all posts by this user" class="postbit_find"><span>Find</span></a>
+<!-- end: postbit_find -->
+	</div>
+	<div class="postbit_buttons post_management_buttons float_right">
+		<!-- start: postbit_edit -->
+<a href="editpost.php?pid=1333477" id="edit_post_1333477" title="Edit this post" class="postbit_edit postbit_mirage"><span>Edit</span></a>
+<div id="edit_post_1333477_popup" class="popup_menu" style="display: none;"><div class="popup_item_container"><a href="javascript:void(0)" class="popup_item quick_edit_button" id="quick_edit_post_1333477">Quick Edit</a></div><div class="popup_item_container"><a href="editpost.php?pid=1333477" class="popup_item">Full Edit</a></div></div>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="text/javascript">
+// <!--
+	if(use_xmlhttprequest == "1")
+	{
+		$("#edit_post_1333477").popupMenu();
+	}
+// -->
+</script>
+<!-- end: postbit_edit --><!-- start: postbit_quote -->
+<a href="newreply.php?tid=224006&amp;replyto=1333477" title="Quote this message in a reply" class="postbit_quote postbit_mirage"><span>Reply</span></a>
+<!-- end: postbit_quote --><!-- start: postbit_multiquote -->
+<a href="javascript:void(0)" onclick="Thread.multiQuote(1333477); return false;" style="display: none;" id="multiquote_link_1333477" title="Quote this post" class="postbit_multiquote postbit_mirage"><span id="multiquote_1333477">Quote</span></a>
+<script type="text/javascript">
+//<!--
+	$('#multiquote_link_1333477').css("display", "");
+// -->
+</script>
+<!-- end: postbit_multiquote --><!-- start: postbit_report -->
+<a href="javascript:void(0)" onclick="Report.reportPost(1333477); return false;" title="Report this post to a moderator" class="postbit_report"><span>Report</span></a>
+<!-- end: postbit_report -->
+	</div>
+</div>
+</div>
+<!-- end: postbit --><!-- start: postbit -->
+
+<a name="pid1333507" id="pid1333507"></a>
+<div class="post " style="" id="post_1333507">
+<div class="post_author">
+	<!-- start: postbit_avatar -->
+<div class="author_avatar"><a href="user-97881.html"><img src="https://community.mybb.com/images/default_avatar.png" alt="" width="70" height="70" /></a></div>
+<!-- end: postbit_avatar -->
+	<div class="author_information">
+			<strong><span class="largetext"><a href="https://community.mybb.com/user-97881.html">screamo</a></span></strong> <!-- start: postbit_offline -->
+<img src="https://community.mybb.com/images/buddy_offline.png" title="Offline" alt="Offline" class="buddy_status" />
+<!-- end: postbit_offline --><br />
+			<span class="smalltext">
+				Junior Member<br />
+				<img src="images/star.png" border="0" alt="*" /><img src="images/star.png" border="0" alt="*" /><br />
+				
+			</span>
+	</div>
+	<div class="author_statistics">
+		<!-- start: postbit_author_user -->
+
+	Posts: 29<br />
+	Threads: 16<br />
+	Joined: Aug 2015
+	<!-- start: postbit_reputation -->
+<br />Reputation: <!-- start: postbit_reputation_formatted_link -->
+<a href="reputation.php?uid=97881"><strong class="reputation_positive">1</strong></a>
+<!-- end: postbit_reputation_formatted_link -->
+<!-- end: postbit_reputation -->
+<!-- end: postbit_author_user -->
+	</div>
+</div>
+<div class="post_content">
+	<div class="post_head">
+		<!-- start: postbit_posturl -->
+<div class="float_right" style="vertical-align: top">
+<strong><a href="thread-224006-post-1333507.html#pid1333507" title="RE: Emerald Extended  [Modern Design || Fully Responsive || Incorporated Premium Plugins]">#2</a></strong>
+
+</div>
+<!-- end: postbit_posturl -->
+		
+		<span class="post_date">2019-07-24, 01:23 PM <span class="post_edit" id="edited_by_1333507"></span>
+		
+	</div>
+	<div class="post_body scaleimages" id="pid_1333507">
+<div class="float_right"></div>
+		I love this new design of Emerald version, it's fully responsive ,catchy on the eye and friendly user. And also the the support of the creator is responsive all the time. If you want to check the live version, you can visit my forum site: <a href="https://cryptoforumtalk.org/" target="_blank" rel="noopener" class="mycode_url">https://cryptoforumtalk.org/</a>
+	</div>
+	
+	
+	<div class="post_meta" id="post_meta_1333507">
+		
+		<div class="float_right">
+			
+		</div>
+	</div>
+	
+</div>
+<div class="post_controls">
+	<div class="postbit_buttons author_buttons float_left">
+		<!-- start: postbit_pm -->
+<a href="private.php?action=send&amp;uid=97881" title="Send this user a private message" class="postbit_pm"><span>PM</span></a>
+<!-- end: postbit_pm --><!-- start: postbit_find -->
+<a href="search.php?action=finduser&amp;uid=97881" title="Find all posts by this user" class="postbit_find"><span>Find</span></a>
+<!-- end: postbit_find --><!-- start: postbit_rep_button -->
+<a href="javascript:void(0)" onclick="MyBB.reputation(97881,1333507); return false;" title="Give Reputation to this user" class="postbit_reputation_add"><span>Rate</span></a>
+<!-- end: postbit_rep_button -->
+	</div>
+	<div class="postbit_buttons post_management_buttons float_right">
+		<!-- start: postbit_quote -->
+<a href="newreply.php?tid=224006&amp;replyto=1333507" title="Quote this message in a reply" class="postbit_quote postbit_mirage"><span>Reply</span></a>
+<!-- end: postbit_quote --><!-- start: postbit_multiquote -->
+<a href="javascript:void(0)" onclick="Thread.multiQuote(1333507); return false;" style="display: none;" id="multiquote_link_1333507" title="Quote this post" class="postbit_multiquote postbit_mirage"><span id="multiquote_1333507">Quote</span></a>
+<script type="text/javascript">
+//<!--
+	$('#multiquote_link_1333507').css("display", "");
+// -->
+</script>
+<!-- end: postbit_multiquote --><!-- start: postbit_report -->
+<a href="javascript:void(0)" onclick="Report.reportPost(1333507); return false;" title="Report this post to a moderator" class="postbit_report"><span>Report</span></a>
+<!-- end: postbit_report -->
+	</div>
+</div>
+</div>
+<!-- end: postbit --><!-- start: postbit -->
+
+<a name="pid1333529" id="pid1333529"></a>
+<div class="post " style="" id="post_1333529">
+<div class="post_author">
+	<!-- start: postbit_avatar -->
+<div class="author_avatar"><a href="user-105159.html"><img src="https://community.mybb.com/uploads/avatars/avatar_105159.jpg?dateline=1536693198" alt="" width="70" height="70" /></a></div>
+<!-- end: postbit_avatar -->
+	<div class="author_information">
+			<strong><span class="largetext"><a href="https://community.mybb.com/user-105159.html"><span style="color: #41929e">WallBB</span></a></span></strong> <!-- start: postbit_offline -->
+<img src="https://community.mybb.com/images/buddy_offline.png" title="Offline" alt="Offline" class="buddy_status" />
+<!-- end: postbit_offline --><br />
+			<span class="smalltext">
+				Extremely Busy..<br />
+				<img src="images/star.png" border="0" alt="*" /><img src="images/star.png" border="0" alt="*" /><img src="images/star.png" border="0" alt="*" /><img src="images/star.png" border="0" alt="*" /><img src="images/star.png" border="0" alt="*" /><br />
+				<!-- start: postbit_groupimage -->
+<img src="images/groupimages/english/contributor.png" alt="Contributors" title="Contributors" />
+<!-- end: postbit_groupimage -->
+			</span>
+	</div>
+	<div class="author_statistics">
+		<!-- start: postbit_author_user -->
+
+	Posts: 2,575<br />
+	Threads: 57<br />
+	Joined: Mar 2016
+	<!-- start: postbit_reputation -->
+<br />Reputation: <!-- start: postbit_reputation_formatted_link -->
+<a href="reputation.php?uid=105159"><strong class="reputation_positive">197</strong></a>
+<!-- end: postbit_reputation_formatted_link -->
+<!-- end: postbit_reputation -->
+<!-- end: postbit_author_user -->
+	</div>
+</div>
+<div class="post_content">
+	<div class="post_head">
+		<!-- start: postbit_posturl -->
+<div class="float_right" style="vertical-align: top">
+<strong><a href="thread-224006-post-1333529.html#pid1333529" title="RE: Emerald Extended  [Modern Design || Fully Responsive || Incorporated Premium Plugins]">#3</a></strong>
+
+</div>
+<!-- end: postbit_posturl -->
+		
+		<span class="post_date">2019-07-24, 05:52 PM <span class="post_edit" id="edited_by_1333529"></span>
+		
+	</div>
+	<div class="post_body scaleimages" id="pid_1333529">
+<div class="float_right"></div>
+		Good luck with the sale <img src="https://community.mybb.com/images/smilies/smile.gif" alt="Smile" title="Smile" class="smilie smilie_1" />
+	</div>
+	
+	<!-- start: postbit_signature -->
+<div class="signature scaleimages">
+<div style="text-align: center;" class="mycode_align"><span style="font-weight: bold;" class="mycode_b"><a href="http://wallbb.co.uk" target="_blank" rel="noopener nofollow" class="mycode_url"><span style="color: #ff3366;" class="mycode_color">Responsive MyBB Themes</span></a> - <a href="http://bit.ly/2iRiK4a" target="_blank" rel="noopener nofollow" class="mycode_url">MyBB Tutorials</a>  </span><a href="http://bit.ly/2iVk1qt" target="_blank" rel="noopener nofollow" class="mycode_url"><img src="https://camo.mybb.com/6ebe568d0fe540da0f9ad2a6ce27c6d445245753/687474703a2f2f692e696d6775722e636f6d2f6f763751357a782e706e67" loading="lazy"  alt="[Image: ov7Q5zx.png]" class="mycode_img" /></a><br />
+</div>
+
+</div>
+<!-- end: postbit_signature -->
+	<div class="post_meta" id="post_meta_1333529">
+		
+		<div class="float_right">
+			
+		</div>
+	</div>
+	
+</div>
+<div class="post_controls">
+	<div class="postbit_buttons author_buttons float_left">
+		<!-- start: postbit_pm -->
+<a href="private.php?action=send&amp;uid=105159" title="Send this user a private message" class="postbit_pm"><span>PM</span></a>
+<!-- end: postbit_pm --><!-- start: postbit_www -->
+<a href="https://wallbb.co.uk" target="_blank" rel="noopener" title="Visit this user's website" class="postbit_website"><span>Website</span></a>
+<!-- end: postbit_www --><!-- start: postbit_find -->
+<a href="search.php?action=finduser&amp;uid=105159" title="Find all posts by this user" class="postbit_find"><span>Find</span></a>
+<!-- end: postbit_find --><!-- start: postbit_rep_button -->
+<a href="javascript:void(0)" onclick="MyBB.reputation(105159,1333529); return false;" title="Give Reputation to this user" class="postbit_reputation_add"><span>Rate</span></a>
+<!-- end: postbit_rep_button -->
+	</div>
+	<div class="postbit_buttons post_management_buttons float_right">
+		<!-- start: postbit_quote -->
+<a href="newreply.php?tid=224006&amp;replyto=1333529" title="Quote this message in a reply" class="postbit_quote postbit_mirage"><span>Reply</span></a>
+<!-- end: postbit_quote --><!-- start: postbit_multiquote -->
+<a href="javascript:void(0)" onclick="Thread.multiQuote(1333529); return false;" style="display: none;" id="multiquote_link_1333529" title="Quote this post" class="postbit_multiquote postbit_mirage"><span id="multiquote_1333529">Quote</span></a>
+<script type="text/javascript">
+//<!--
+	$('#multiquote_link_1333529').css("display", "");
+// -->
+</script>
+<!-- end: postbit_multiquote --><!-- start: postbit_report -->
+<a href="javascript:void(0)" onclick="Report.reportPost(1333529); return false;" title="Report this post to a moderator" class="postbit_report"><span>Report</span></a>
+<!-- end: postbit_report -->
+	</div>
+</div>
+</div>
+<!-- end: postbit --><!-- start: postbit -->
+
+<a name="pid1333577" id="pid1333577"></a>
+<div class="post " style="" id="post_1333577">
+<div class="post_author">
+	<!-- start: postbit_avatar -->
+<div class="author_avatar"><a href="user-76958.html"><img src="https://community.mybb.com/uploads/avatars/avatar_76958.jpg?dateline=1513619535" alt="" width="70" height="70" /></a></div>
+<!-- end: postbit_avatar -->
+	<div class="author_information">
+			<strong><span class="largetext"><a href="https://community.mybb.com/user-76958.html">AmazOuz</a></span></strong> <!-- start: postbit_online -->
+<a href="online.php" title="Online"><img src="https://community.mybb.com/images/buddy_online.png" border="0" alt="Online" class="buddy_status" /></a>
+<!-- end: postbit_online --><br />
+			<span class="smalltext">
+				Developer<br />
+				<img src="images/star.png" border="0" alt="*" /><img src="images/star.png" border="0" alt="*" /><img src="images/star.png" border="0" alt="*" /><img src="images/star.png" border="0" alt="*" /><br />
+				
+			</span>
+	</div>
+	<div class="author_statistics">
+		<!-- start: postbit_author_user -->
+
+	Posts: 253<br />
+	Threads: 33<br />
+	Joined: Sep 2013
+	<!-- start: postbit_reputation -->
+<br />Reputation: <!-- start: postbit_reputation_formatted_link -->
+<a href="reputation.php?uid=76958"><strong class="reputation_positive">14</strong></a>
+<!-- end: postbit_reputation_formatted_link -->
+<!-- end: postbit_reputation -->
+<!-- end: postbit_author_user -->
+	</div>
+</div>
+<div class="post_content">
+	<div class="post_head">
+		<!-- start: postbit_posturl -->
+<div class="float_right" style="vertical-align: top">
+<strong><a href="thread-224006-post-1333577.html#pid1333577" title="RE: Emerald Extended  [Modern Design || Fully Responsive || Incorporated Premium Plugins]">#4</a></strong>
+
+</div>
+<!-- end: postbit_posturl -->
+		
+		<span class="post_date">2019-07-25, 05:51 PM <span class="post_edit" id="edited_by_1333577"></span>
+		
+	</div>
+	<div class="post_body scaleimages" id="pid_1333577">
+<div class="float_right"></div>
+		Thank you WallBB <img src="https://community.mybb.com/images/smilies/wink.gif" alt="Wink" title="Wink" class="smilie smilie_3" /> <br />
+EDIT : The price has been reduced to 20&#36;.
+	</div>
+	
+	<!-- start: postbit_signature -->
+<div class="signature scaleimages">
+<div style="text-align: center;" class="mycode_align"><a href="https://community.mybb.com/thread-224006.html" target="_blank" rel="noopener nofollow" class="mycode_url"><img src="https://camo.mybb.com/e37b6f5c1c85909ff609eaaca926b4ef0c105bc8/68747470733a2f2f692e6962622e636f2f326b4758584b542f5072657a2e706e67" loading="lazy"  alt="[Image: Prez.png]" class="mycode_img" /></a></div>
+</div>
+<!-- end: postbit_signature -->
+	<div class="post_meta" id="post_meta_1333577">
+		
+		<div class="float_right">
+			
+		</div>
+	</div>
+	<!-- start: postbit_editreason -->
+<div class="editreason" id="editreason_1333577_original" style="display: none;"><label for="editreason">Edit Reason:</label> <input type="text" class="textbox" style="margin: 6px 0;" name="editreason" size="40" maxlength="150" id="quickedit_1333577_editreason_original" value="" /><br /></div>
+<!-- end: postbit_editreason -->
+</div>
+<div class="post_controls">
+	<div class="postbit_buttons author_buttons float_left">
+		<!-- start: postbit_www -->
+<a href="https://developement.design/" target="_blank" rel="noopener" title="Visit this user's website" class="postbit_website"><span>Website</span></a>
+<!-- end: postbit_www --><!-- start: postbit_find -->
+<a href="search.php?action=finduser&amp;uid=76958" title="Find all posts by this user" class="postbit_find"><span>Find</span></a>
+<!-- end: postbit_find -->
+	</div>
+	<div class="postbit_buttons post_management_buttons float_right">
+		<!-- start: postbit_edit -->
+<a href="editpost.php?pid=1333577" id="edit_post_1333577" title="Edit this post" class="postbit_edit postbit_mirage"><span>Edit</span></a>
+<div id="edit_post_1333577_popup" class="popup_menu" style="display: none;"><div class="popup_item_container"><a href="javascript:void(0)" class="popup_item quick_edit_button" id="quick_edit_post_1333577">Quick Edit</a></div><div class="popup_item_container"><a href="editpost.php?pid=1333577" class="popup_item">Full Edit</a></div></div>
+<script type="text/javascript">
+// <!--
+	if(use_xmlhttprequest == "1")
+	{
+		$("#edit_post_1333577").popupMenu();
+	}
+// -->
+</script>
+<!-- end: postbit_edit --><!-- start: postbit_quote -->
+<a href="newreply.php?tid=224006&amp;replyto=1333577" title="Quote this message in a reply" class="postbit_quote postbit_mirage"><span>Reply</span></a>
+<!-- end: postbit_quote --><!-- start: postbit_multiquote -->
+<a href="javascript:void(0)" onclick="Thread.multiQuote(1333577); return false;" style="display: none;" id="multiquote_link_1333577" title="Quote this post" class="postbit_multiquote postbit_mirage"><span id="multiquote_1333577">Quote</span></a>
+<script type="text/javascript">
+//<!--
+	$('#multiquote_link_1333577').css("display", "");
+// -->
+</script>
+<!-- end: postbit_multiquote --><!-- start: postbit_report -->
+<a href="javascript:void(0)" onclick="Report.reportPost(1333577); return false;" title="Report this post to a moderator" class="postbit_report"><span>Report</span></a>
+<!-- end: postbit_report -->
+	</div>
+</div>
+</div>
+<!-- end: postbit --><!-- start: postbit -->
+
+<a name="pid1333579" id="pid1333579"></a>
+<div class="post " style="" id="post_1333579">
+<div class="post_author">
+	<!-- start: postbit_avatar -->
+<div class="author_avatar"><a href="user-34123.html"><img src="https://community.mybb.com/uploads/avatars/avatar_34123.jpg?dateline=1588960542" alt="" width="70" height="70" /></a></div>
+<!-- end: postbit_avatar -->
+	<div class="author_information">
+			<strong><span class="largetext"><a href="https://community.mybb.com/user-34123.html">jason5</a></span></strong> <!-- start: postbit_offline -->
+<img src="https://community.mybb.com/images/buddy_offline.png" title="Offline" alt="Offline" class="buddy_status" />
+<!-- end: postbit_offline --><br />
+			<span class="smalltext">
+				Member<br />
+				<img src="images/star.png" border="0" alt="*" /><img src="images/star.png" border="0" alt="*" /><img src="images/star.png" border="0" alt="*" /><br />
+				
+			</span>
+	</div>
+	<div class="author_statistics">
+		<!-- start: postbit_author_user -->
+
+	Posts: 188<br />
+	Threads: 23<br />
+	Joined: Dec 2010
+	<!-- start: postbit_reputation -->
+<br />Reputation: <!-- start: postbit_reputation_formatted_link -->
+<a href="reputation.php?uid=34123"><strong class="reputation_positive">1</strong></a>
+<!-- end: postbit_reputation_formatted_link -->
+<!-- end: postbit_reputation -->
+<!-- end: postbit_author_user -->
+	</div>
+</div>
+<div class="post_content">
+	<div class="post_head">
+		<!-- start: postbit_posturl -->
+<div class="float_right" style="vertical-align: top">
+<strong><a href="thread-224006-post-1333579.html#pid1333579" title="RE: Emerald Extended Theme  [Modern &amp; Fully Responsive || Incorporated Premium Plugins]">#5</a></strong>
+
+</div>
+<!-- end: postbit_posturl -->
+		
+		<span class="post_date">2019-07-25, 06:04 PM <span class="post_edit" id="edited_by_1333579"></span>
+		
+	</div>
+	<div class="post_body scaleimages" id="pid_1333579">
+<div class="float_right"></div>
+		Really nice work on the theme, good luck on the sale <img src="https://community.mybb.com/images/smilies/smile.gif" alt="Smile" title="Smile" class="smilie smilie_1" />
+	</div>
+	
+	
+	<div class="post_meta" id="post_meta_1333579">
+		
+		<div class="float_right">
+			
+		</div>
+	</div>
+	
+</div>
+<div class="post_controls">
+	<div class="postbit_buttons author_buttons float_left">
+		<!-- start: postbit_pm -->
+<a href="private.php?action=send&amp;uid=34123" title="Send this user a private message" class="postbit_pm"><span>PM</span></a>
+<!-- end: postbit_pm --><!-- start: postbit_www -->
+<a href="https://webtalkzone.com" target="_blank" rel="noopener" title="Visit this user's website" class="postbit_website"><span>Website</span></a>
+<!-- end: postbit_www --><!-- start: postbit_find -->
+<a href="search.php?action=finduser&amp;uid=34123" title="Find all posts by this user" class="postbit_find"><span>Find</span></a>
+<!-- end: postbit_find --><!-- start: postbit_rep_button -->
+<a href="javascript:void(0)" onclick="MyBB.reputation(34123,1333579); return false;" title="Give Reputation to this user" class="postbit_reputation_add"><span>Rate</span></a>
+<!-- end: postbit_rep_button -->
+	</div>
+	<div class="postbit_buttons post_management_buttons float_right">
+		<!-- start: postbit_quote -->
+<a href="newreply.php?tid=224006&amp;replyto=1333579" title="Quote this message in a reply" class="postbit_quote postbit_mirage"><span>Reply</span></a>
+<!-- end: postbit_quote --><!-- start: postbit_multiquote -->
+<a href="javascript:void(0)" onclick="Thread.multiQuote(1333579); return false;" style="display: none;" id="multiquote_link_1333579" title="Quote this post" class="postbit_multiquote postbit_mirage"><span id="multiquote_1333579">Quote</span></a>
+<script type="text/javascript">
+//<!--
+	$('#multiquote_link_1333579').css("display", "");
+// -->
+</script>
+<!-- end: postbit_multiquote --><!-- start: postbit_report -->
+<a href="javascript:void(0)" onclick="Report.reportPost(1333579); return false;" title="Report this post to a moderator" class="postbit_report"><span>Report</span></a>
+<!-- end: postbit_report -->
+	</div>
+</div>
+</div>
+<!-- end: postbit --><!-- start: postbit -->
+
+<a name="pid1333617" id="pid1333617"></a>
+<div class="post " style="" id="post_1333617">
+<div class="post_author">
+	<!-- start: postbit_avatar -->
+<div class="author_avatar"><a href="user-76958.html"><img src="https://community.mybb.com/uploads/avatars/avatar_76958.jpg?dateline=1513619535" alt="" width="70" height="70" /></a></div>
+<!-- end: postbit_avatar -->
+	<div class="author_information">
+			<strong><span class="largetext"><a href="https://community.mybb.com/user-76958.html">AmazOuz</a></span></strong> <!-- start: postbit_online -->
+<a href="online.php" title="Online"><img src="https://community.mybb.com/images/buddy_online.png" border="0" alt="Online" class="buddy_status" /></a>
+<!-- end: postbit_online --><br />
+			<span class="smalltext">
+				Developer<br />
+				<img src="images/star.png" border="0" alt="*" /><img src="images/star.png" border="0" alt="*" /><img src="images/star.png" border="0" alt="*" /><img src="images/star.png" border="0" alt="*" /><br />
+				
+			</span>
+	</div>
+	<div class="author_statistics">
+		<!-- start: postbit_author_user -->
+
+	Posts: 253<br />
+	Threads: 33<br />
+	Joined: Sep 2013
+	<!-- start: postbit_reputation -->
+<br />Reputation: <!-- start: postbit_reputation_formatted_link -->
+<a href="reputation.php?uid=76958"><strong class="reputation_positive">14</strong></a>
+<!-- end: postbit_reputation_formatted_link -->
+<!-- end: postbit_reputation -->
+<!-- end: postbit_author_user -->
+	</div>
+</div>
+<div class="post_content">
+	<div class="post_head">
+		<!-- start: postbit_posturl -->
+<div class="float_right" style="vertical-align: top">
+<strong><a href="thread-224006-post-1333617.html#pid1333617" title="RE: Emerald Extended Theme  [Modern &amp; Fully Responsive || Incorporated Premium Plugins]">#6</a></strong>
+
+</div>
+<!-- end: postbit_posturl -->
+		
+		<span class="post_date">2019-07-26, 10:17 PM <span class="post_edit" id="edited_by_1333617"><!-- start: postbit_editedby -->
+<span class="edited_post">(This post was last modified: 2019-07-27, 06:27 PM by <a href="https://community.mybb.com/user-76958.html">AmazOuz</a>.<!-- editcount -->)</span>
+<!-- end: postbit_editedby --></span>
+		
+	</div>
+	<div class="post_body scaleimages" id="pid_1333617">
+<div class="float_right"></div>
+		<blockquote class="mycode_quote"><cite><span> (2019-07-25, 06:04 PM)</span>jason5 Wrote:  <a href="https://community.mybb.com/post-1333579.html#pid1333579" class="quick_jump"></a></cite>Really nice work on the theme, good luck on the sale <img src="https://community.mybb.com/images/smilies/smile.gif" alt="Smile" title="Smile" class="smilie smilie_1" /></blockquote>Thank you jason <img src="https://community.mybb.com/images/smilies/wink.gif" alt="Wink" title="Wink" class="smilie smilie_3" /><br />
+<hr class="mycode_hr" />
+First post edited <img src="https://community.mybb.com/images/smilies/wink.gif" alt="Wink" title="Wink" class="smilie smilie_3" />
+	</div>
+	
+	<!-- start: postbit_signature -->
+<div class="signature scaleimages">
+<div style="text-align: center;" class="mycode_align"><a href="https://community.mybb.com/thread-224006.html" target="_blank" rel="noopener nofollow" class="mycode_url"><img src="https://camo.mybb.com/e37b6f5c1c85909ff609eaaca926b4ef0c105bc8/68747470733a2f2f692e6962622e636f2f326b4758584b542f5072657a2e706e67" loading="lazy"  alt="[Image: Prez.png]" class="mycode_img" /></a></div>
+</div>
+<!-- end: postbit_signature -->
+	<div class="post_meta" id="post_meta_1333617">
+		
+		<div class="float_right">
+			
+		</div>
+	</div>
+	<!-- start: postbit_editreason -->
+<div class="editreason" id="editreason_1333617_original" style="display: none;"><label for="editreason">Edit Reason:</label> <input type="text" class="textbox" style="margin: 6px 0;" name="editreason" size="40" maxlength="150" id="quickedit_1333617_editreason_original" value="" /><br /></div>
+<!-- end: postbit_editreason -->
+</div>
+<div class="post_controls">
+	<div class="postbit_buttons author_buttons float_left">
+		<!-- start: postbit_www -->
+<a href="https://developement.design/" target="_blank" rel="noopener" title="Visit this user's website" class="postbit_website"><span>Website</span></a>
+<!-- end: postbit_www --><!-- start: postbit_find -->
+<a href="search.php?action=finduser&amp;uid=76958" title="Find all posts by this user" class="postbit_find"><span>Find</span></a>
+<!-- end: postbit_find -->
+	</div>
+	<div class="postbit_buttons post_management_buttons float_right">
+		<!-- start: postbit_edit -->
+<a href="editpost.php?pid=1333617" id="edit_post_1333617" title="Edit this post" class="postbit_edit postbit_mirage"><span>Edit</span></a>
+<div id="edit_post_1333617_popup" class="popup_menu" style="display: none;"><div class="popup_item_container"><a href="javascript:void(0)" class="popup_item quick_edit_button" id="quick_edit_post_1333617">Quick Edit</a></div><div class="popup_item_container"><a href="editpost.php?pid=1333617" class="popup_item">Full Edit</a></div></div>
+<script type="text/javascript">
+// <!--
+	if(use_xmlhttprequest == "1")
+	{
+		$("#edit_post_1333617").popupMenu();
+	}
+// -->
+</script>
+<!-- end: postbit_edit --><!-- start: postbit_quote -->
+<a href="newreply.php?tid=224006&amp;replyto=1333617" title="Quote this message in a reply" class="postbit_quote postbit_mirage"><span>Reply</span></a>
+<!-- end: postbit_quote --><!-- start: postbit_multiquote -->
+<a href="javascript:void(0)" onclick="Thread.multiQuote(1333617); return false;" style="display: none;" id="multiquote_link_1333617" title="Quote this post" class="postbit_multiquote postbit_mirage"><span id="multiquote_1333617">Quote</span></a>
+<script type="text/javascript">
+//<!--
+	$('#multiquote_link_1333617').css("display", "");
+// -->
+</script>
+<!-- end: postbit_multiquote --><!-- start: postbit_report -->
+<a href="javascript:void(0)" onclick="Report.reportPost(1333617); return false;" title="Report this post to a moderator" class="postbit_report"><span>Report</span></a>
+<!-- end: postbit_report -->
+	</div>
+</div>
+</div>
+<!-- end: postbit --><!-- start: postbit -->
+
+<a name="pid1333714" id="pid1333714"></a>
+<div class="post " style="" id="post_1333714">
+<div class="post_author">
+	<!-- start: postbit_avatar -->
+<div class="author_avatar"><a href="user-127339.html"><img src="https://community.mybb.com/images/default_avatar.png" alt="" width="70" height="70" /></a></div>
+<!-- end: postbit_avatar -->
+	<div class="author_information">
+			<strong><span class="largetext"><a href="https://community.mybb.com/user-127339.html">ianChrist007</a></span></strong> <!-- start: postbit_offline -->
+<img src="https://community.mybb.com/images/buddy_offline.png" title="Offline" alt="Offline" class="buddy_status" />
+<!-- end: postbit_offline --><br />
+			<span class="smalltext">
+				Junior Member<br />
+				<img src="images/star.png" border="0" alt="*" /><img src="images/star.png" border="0" alt="*" /><br />
+				
+			</span>
+	</div>
+	<div class="author_statistics">
+		<!-- start: postbit_author_user -->
+
+	Posts: 8<br />
+	Threads: 0<br />
+	Joined: Mar 2019
+	<!-- start: postbit_reputation -->
+<br />Reputation: <!-- start: postbit_reputation_formatted_link -->
+<a href="reputation.php?uid=127339"><strong class="reputation_neutral">0</strong></a>
+<!-- end: postbit_reputation_formatted_link -->
+<!-- end: postbit_reputation -->
+<!-- end: postbit_author_user -->
+	</div>
+</div>
+<div class="post_content">
+	<div class="post_head">
+		<!-- start: postbit_posturl -->
+<div class="float_right" style="vertical-align: top">
+<strong><a href="thread-224006-post-1333714.html#pid1333714" title="RE: Emerald Extended Theme  [Modern &amp; Fully Responsive || Incorporated Premium Plugins]">#7</a></strong>
+
+</div>
+<!-- end: postbit_posturl -->
+		
+		<span class="post_date">2019-07-29, 08:49 AM <span class="post_edit" id="edited_by_1333714"></span>
+		
+	</div>
+	<div class="post_body scaleimages" id="pid_1333714">
+<div class="float_right"></div>
+		Can't Upload Profile cover..
+	</div>
+	
+	
+	<div class="post_meta" id="post_meta_1333714">
+		
+		<div class="float_right">
+			
+		</div>
+	</div>
+	
+</div>
+<div class="post_controls">
+	<div class="postbit_buttons author_buttons float_left">
+		<!-- start: postbit_pm -->
+<a href="private.php?action=send&amp;uid=127339" title="Send this user a private message" class="postbit_pm"><span>PM</span></a>
+<!-- end: postbit_pm --><!-- start: postbit_find -->
+<a href="search.php?action=finduser&amp;uid=127339" title="Find all posts by this user" class="postbit_find"><span>Find</span></a>
+<!-- end: postbit_find --><!-- start: postbit_rep_button -->
+<a href="javascript:void(0)" onclick="MyBB.reputation(127339,1333714); return false;" title="Give Reputation to this user" class="postbit_reputation_add"><span>Rate</span></a>
+<!-- end: postbit_rep_button -->
+	</div>
+	<div class="postbit_buttons post_management_buttons float_right">
+		<!-- start: postbit_quote -->
+<a href="newreply.php?tid=224006&amp;replyto=1333714" title="Quote this message in a reply" class="postbit_quote postbit_mirage"><span>Reply</span></a>
+<!-- end: postbit_quote --><!-- start: postbit_multiquote -->
+<a href="javascript:void(0)" onclick="Thread.multiQuote(1333714); return false;" style="display: none;" id="multiquote_link_1333714" title="Quote this post" class="postbit_multiquote postbit_mirage"><span id="multiquote_1333714">Quote</span></a>
+<script type="text/javascript">
+//<!--
+	$('#multiquote_link_1333714').css("display", "");
+// -->
+</script>
+<!-- end: postbit_multiquote --><!-- start: postbit_report -->
+<a href="javascript:void(0)" onclick="Report.reportPost(1333714); return false;" title="Report this post to a moderator" class="postbit_report"><span>Report</span></a>
+<!-- end: postbit_report -->
+	</div>
+</div>
+</div>
+<!-- end: postbit --><!-- start: postbit -->
+
+<a name="pid1333737" id="pid1333737"></a>
+<div class="post " style="" id="post_1333737">
+<div class="post_author">
+	<!-- start: postbit_avatar -->
+<div class="author_avatar"><a href="user-76958.html"><img src="https://community.mybb.com/uploads/avatars/avatar_76958.jpg?dateline=1513619535" alt="" width="70" height="70" /></a></div>
+<!-- end: postbit_avatar -->
+	<div class="author_information">
+			<strong><span class="largetext"><a href="https://community.mybb.com/user-76958.html">AmazOuz</a></span></strong> <!-- start: postbit_online -->
+<a href="online.php" title="Online"><img src="https://community.mybb.com/images/buddy_online.png" border="0" alt="Online" class="buddy_status" /></a>
+<!-- end: postbit_online --><br />
+			<span class="smalltext">
+				Developer<br />
+				<img src="images/star.png" border="0" alt="*" /><img src="images/star.png" border="0" alt="*" /><img src="images/star.png" border="0" alt="*" /><img src="images/star.png" border="0" alt="*" /><br />
+				
+			</span>
+	</div>
+	<div class="author_statistics">
+		<!-- start: postbit_author_user -->
+
+	Posts: 253<br />
+	Threads: 33<br />
+	Joined: Sep 2013
+	<!-- start: postbit_reputation -->
+<br />Reputation: <!-- start: postbit_reputation_formatted_link -->
+<a href="reputation.php?uid=76958"><strong class="reputation_positive">14</strong></a>
+<!-- end: postbit_reputation_formatted_link -->
+<!-- end: postbit_reputation -->
+<!-- end: postbit_author_user -->
+	</div>
+</div>
+<div class="post_content">
+	<div class="post_head">
+		<!-- start: postbit_posturl -->
+<div class="float_right" style="vertical-align: top">
+<strong><a href="thread-224006-post-1333737.html#pid1333737" title="RE: Emerald Extended Theme  [Modern &amp; Fully Responsive || Incorporated Premium Plugins]">#8</a></strong>
+
+</div>
+<!-- end: postbit_posturl -->
+		
+		<span class="post_date">2019-07-29, 07:25 PM <span class="post_edit" id="edited_by_1333737"><!-- start: postbit_editedby -->
+<span class="edited_post">(This post was last modified: 2019-07-29, 07:30 PM by <a href="https://community.mybb.com/user-76958.html">AmazOuz</a>. Edited 1 time in total.)</span>
+<!-- end: postbit_editedby --></span>
+		
+	</div>
+	<div class="post_body scaleimages" id="pid_1333737">
+<div class="float_right"></div>
+		<blockquote class="mycode_quote"><cite><span> (2019-07-29, 08:49 AM)</span>ianChrist007 Wrote:  <a href="https://community.mybb.com/post-1333714.html#pid1333714" class="quick_jump"></a></cite>Can't Upload Profile cover..</blockquote><br />
+Please read the README for the support. I just replied on your the thread you created though, you must create another one for the profile cover stuff (in this subforum : <a href="https://developement.design/forum/Forum-support--18" target="_blank" rel="noopener" class="mycode_url">https://developement.design/forum/Forum-support--18</a>) &amp; explain the errors you get.
+	</div>
+	
+	<!-- start: postbit_signature -->
+<div class="signature scaleimages">
+<div style="text-align: center;" class="mycode_align"><a href="https://community.mybb.com/thread-224006.html" target="_blank" rel="noopener nofollow" class="mycode_url"><img src="https://camo.mybb.com/e37b6f5c1c85909ff609eaaca926b4ef0c105bc8/68747470733a2f2f692e6962622e636f2f326b4758584b542f5072657a2e706e67" loading="lazy"  alt="[Image: Prez.png]" class="mycode_img" /></a></div>
+</div>
+<!-- end: postbit_signature -->
+	<div class="post_meta" id="post_meta_1333737">
+		
+		<div class="float_right">
+			
+		</div>
+	</div>
+	<!-- start: postbit_editreason -->
+<div class="editreason" id="editreason_1333737_original" style="display: none;"><label for="editreason">Edit Reason:</label> <input type="text" class="textbox" style="margin: 6px 0;" name="editreason" size="40" maxlength="150" id="quickedit_1333737_editreason_original" value="" /><br /></div>
+<!-- end: postbit_editreason -->
+</div>
+<div class="post_controls">
+	<div class="postbit_buttons author_buttons float_left">
+		<!-- start: postbit_www -->
+<a href="https://developement.design/" target="_blank" rel="noopener" title="Visit this user's website" class="postbit_website"><span>Website</span></a>
+<!-- end: postbit_www --><!-- start: postbit_find -->
+<a href="search.php?action=finduser&amp;uid=76958" title="Find all posts by this user" class="postbit_find"><span>Find</span></a>
+<!-- end: postbit_find -->
+	</div>
+	<div class="postbit_buttons post_management_buttons float_right">
+		<!-- start: postbit_edit -->
+<a href="editpost.php?pid=1333737" id="edit_post_1333737" title="Edit this post" class="postbit_edit postbit_mirage"><span>Edit</span></a>
+<div id="edit_post_1333737_popup" class="popup_menu" style="display: none;"><div class="popup_item_container"><a href="javascript:void(0)" class="popup_item quick_edit_button" id="quick_edit_post_1333737">Quick Edit</a></div><div class="popup_item_container"><a href="editpost.php?pid=1333737" class="popup_item">Full Edit</a></div></div>
+<script type="text/javascript">
+// <!--
+	if(use_xmlhttprequest == "1")
+	{
+		$("#edit_post_1333737").popupMenu();
+	}
+// -->
+</script>
+<!-- end: postbit_edit --><!-- start: postbit_quote -->
+<a href="newreply.php?tid=224006&amp;replyto=1333737" title="Quote this message in a reply" class="postbit_quote postbit_mirage"><span>Reply</span></a>
+<!-- end: postbit_quote --><!-- start: postbit_multiquote -->
+<a href="javascript:void(0)" onclick="Thread.multiQuote(1333737); return false;" style="display: none;" id="multiquote_link_1333737" title="Quote this post" class="postbit_multiquote postbit_mirage"><span id="multiquote_1333737">Quote</span></a>
+<script type="text/javascript">
+//<!--
+	$('#multiquote_link_1333737').css("display", "");
+// -->
+</script>
+<!-- end: postbit_multiquote --><!-- start: postbit_report -->
+<a href="javascript:void(0)" onclick="Report.reportPost(1333737); return false;" title="Report this post to a moderator" class="postbit_report"><span>Report</span></a>
+<!-- end: postbit_report -->
+	</div>
+</div>
+</div>
+<!-- end: postbit --><!-- start: postbit -->
+
+<a name="pid1333962" id="pid1333962"></a>
+<div class="post " style="" id="post_1333962">
+<div class="post_author">
+	<!-- start: postbit_avatar -->
+<div class="author_avatar"><a href="user-76958.html"><img src="https://community.mybb.com/uploads/avatars/avatar_76958.jpg?dateline=1513619535" alt="" width="70" height="70" /></a></div>
+<!-- end: postbit_avatar -->
+	<div class="author_information">
+			<strong><span class="largetext"><a href="https://community.mybb.com/user-76958.html">AmazOuz</a></span></strong> <!-- start: postbit_online -->
+<a href="online.php" title="Online"><img src="https://community.mybb.com/images/buddy_online.png" border="0" alt="Online" class="buddy_status" /></a>
+<!-- end: postbit_online --><br />
+			<span class="smalltext">
+				Developer<br />
+				<img src="images/star.png" border="0" alt="*" /><img src="images/star.png" border="0" alt="*" /><img src="images/star.png" border="0" alt="*" /><img src="images/star.png" border="0" alt="*" /><br />
+				
+			</span>
+	</div>
+	<div class="author_statistics">
+		<!-- start: postbit_author_user -->
+
+	Posts: 253<br />
+	Threads: 33<br />
+	Joined: Sep 2013
+	<!-- start: postbit_reputation -->
+<br />Reputation: <!-- start: postbit_reputation_formatted_link -->
+<a href="reputation.php?uid=76958"><strong class="reputation_positive">14</strong></a>
+<!-- end: postbit_reputation_formatted_link -->
+<!-- end: postbit_reputation -->
+<!-- end: postbit_author_user -->
+	</div>
+</div>
+<div class="post_content">
+	<div class="post_head">
+		<!-- start: postbit_posturl -->
+<div class="float_right" style="vertical-align: top">
+<strong><a href="thread-224006-post-1333962.html#pid1333962" title="RE: Emerald Extended Theme  [Modern &amp; Fully Responsive || Incorporated Premium Plugins]">#9</a></strong>
+
+</div>
+<!-- end: postbit_posturl -->
+		
+		<span class="post_date">2019-08-04, 02:26 AM <span class="post_edit" id="edited_by_1333962"></span>
+		
+	</div>
+	<div class="post_body scaleimages" id="pid_1333962">
+<div class="float_right"></div>
+		Theme updated, profile cover system works perfectly now &amp; few improvements made on the code !
+	</div>
+	
+	<!-- start: postbit_signature -->
+<div class="signature scaleimages">
+<div style="text-align: center;" class="mycode_align"><a href="https://community.mybb.com/thread-224006.html" target="_blank" rel="noopener nofollow" class="mycode_url"><img src="https://camo.mybb.com/e37b6f5c1c85909ff609eaaca926b4ef0c105bc8/68747470733a2f2f692e6962622e636f2f326b4758584b542f5072657a2e706e67" loading="lazy"  alt="[Image: Prez.png]" class="mycode_img" /></a></div>
+</div>
+<!-- end: postbit_signature -->
+	<div class="post_meta" id="post_meta_1333962">
+		
+		<div class="float_right">
+			
+		</div>
+	</div>
+	<!-- start: postbit_editreason -->
+<div class="editreason" id="editreason_1333962_original" style="display: none;"><label for="editreason">Edit Reason:</label> <input type="text" class="textbox" style="margin: 6px 0;" name="editreason" size="40" maxlength="150" id="quickedit_1333962_editreason_original" value="" /><br /></div>
+<!-- end: postbit_editreason -->
+</div>
+<div class="post_controls">
+	<div class="postbit_buttons author_buttons float_left">
+		<!-- start: postbit_www -->
+<a href="https://developement.design/" target="_blank" rel="noopener" title="Visit this user's website" class="postbit_website"><span>Website</span></a>
+<!-- end: postbit_www --><!-- start: postbit_find -->
+<a href="search.php?action=finduser&amp;uid=76958" title="Find all posts by this user" class="postbit_find"><span>Find</span></a>
+<!-- end: postbit_find -->
+	</div>
+	<div class="postbit_buttons post_management_buttons float_right">
+		<!-- start: postbit_edit -->
+<a href="editpost.php?pid=1333962" id="edit_post_1333962" title="Edit this post" class="postbit_edit postbit_mirage"><span>Edit</span></a>
+<div id="edit_post_1333962_popup" class="popup_menu" style="display: none;"><div class="popup_item_container"><a href="javascript:void(0)" class="popup_item quick_edit_button" id="quick_edit_post_1333962">Quick Edit</a></div><div class="popup_item_container"><a href="editpost.php?pid=1333962" class="popup_item">Full Edit</a></div></div>
+<script type="text/javascript">
+// <!--
+	if(use_xmlhttprequest == "1")
+	{
+		$("#edit_post_1333962").popupMenu();
+	}
+// -->
+</script>
+<!-- end: postbit_edit --><!-- start: postbit_quote -->
+<a href="newreply.php?tid=224006&amp;replyto=1333962" title="Quote this message in a reply" class="postbit_quote postbit_mirage"><span>Reply</span></a>
+<!-- end: postbit_quote --><!-- start: postbit_multiquote -->
+<a href="javascript:void(0)" onclick="Thread.multiQuote(1333962); return false;" style="display: none;" id="multiquote_link_1333962" title="Quote this post" class="postbit_multiquote postbit_mirage"><span id="multiquote_1333962">Quote</span></a>
+<script type="text/javascript">
+//<!--
+	$('#multiquote_link_1333962').css("display", "");
+// -->
+</script>
+<!-- end: postbit_multiquote --><!-- start: postbit_report -->
+<a href="javascript:void(0)" onclick="Report.reportPost(1333962); return false;" title="Report this post to a moderator" class="postbit_report"><span>Report</span></a>
+<!-- end: postbit_report -->
+	</div>
+</div>
+</div>
+<!-- end: postbit --><!-- start: postbit -->
+
+<a name="pid1333978" id="pid1333978"></a>
+<div class="post " style="" id="post_1333978">
+<div class="post_author">
+	<!-- start: postbit_avatar -->
+<div class="author_avatar"><a href="user-127339.html"><img src="https://community.mybb.com/images/default_avatar.png" alt="" width="70" height="70" /></a></div>
+<!-- end: postbit_avatar -->
+	<div class="author_information">
+			<strong><span class="largetext"><a href="https://community.mybb.com/user-127339.html">ianChrist007</a></span></strong> <!-- start: postbit_offline -->
+<img src="https://community.mybb.com/images/buddy_offline.png" title="Offline" alt="Offline" class="buddy_status" />
+<!-- end: postbit_offline --><br />
+			<span class="smalltext">
+				Junior Member<br />
+				<img src="images/star.png" border="0" alt="*" /><img src="images/star.png" border="0" alt="*" /><br />
+				
+			</span>
+	</div>
+	<div class="author_statistics">
+		<!-- start: postbit_author_user -->
+
+	Posts: 8<br />
+	Threads: 0<br />
+	Joined: Mar 2019
+	<!-- start: postbit_reputation -->
+<br />Reputation: <!-- start: postbit_reputation_formatted_link -->
+<a href="reputation.php?uid=127339"><strong class="reputation_neutral">0</strong></a>
+<!-- end: postbit_reputation_formatted_link -->
+<!-- end: postbit_reputation -->
+<!-- end: postbit_author_user -->
+	</div>
+</div>
+<div class="post_content">
+	<div class="post_head">
+		<!-- start: postbit_posturl -->
+<div class="float_right" style="vertical-align: top">
+<strong><a href="thread-224006-post-1333978.html#pid1333978" title="RE: Emerald Extended Theme  [Modern &amp; Fully Responsive || Incorporated Premium Plugins]">#10</a></strong>
+
+</div>
+<!-- end: postbit_posturl -->
+		
+		<span class="post_date">2019-08-04, 02:32 PM <span class="post_edit" id="edited_by_1333978"><!-- start: postbit_editedby -->
+<span class="edited_post">(This post was last modified: 2019-08-04, 03:22 PM by <a href="https://community.mybb.com/user-127339.html">ianChrist007</a>. Edited 1 time in total.<!-- start: postbit_editedby_editreason -->
+ <em>Edit Reason: SOLVED</em>
+<!-- end: postbit_editedby_editreason -->)</span>
+<!-- end: postbit_editedby --></span>
+		
+	</div>
+	<div class="post_body scaleimages" id="pid_1333978">
+<div class="float_right"></div>
+		How to update the theme? I already made some customizations on the template.<br />
+<br />
+EDIT:<br />
+<br />
+UPDATED.  I manually compared the xml files.
+	</div>
+	
+	
+	<div class="post_meta" id="post_meta_1333978">
+		
+		<div class="float_right">
+			
+		</div>
+	</div>
+	
+</div>
+<div class="post_controls">
+	<div class="postbit_buttons author_buttons float_left">
+		<!-- start: postbit_pm -->
+<a href="private.php?action=send&amp;uid=127339" title="Send this user a private message" class="postbit_pm"><span>PM</span></a>
+<!-- end: postbit_pm --><!-- start: postbit_find -->
+<a href="search.php?action=finduser&amp;uid=127339" title="Find all posts by this user" class="postbit_find"><span>Find</span></a>
+<!-- end: postbit_find --><!-- start: postbit_rep_button -->
+<a href="javascript:void(0)" onclick="MyBB.reputation(127339,1333978); return false;" title="Give Reputation to this user" class="postbit_reputation_add"><span>Rate</span></a>
+<!-- end: postbit_rep_button -->
+	</div>
+	<div class="postbit_buttons post_management_buttons float_right">
+		<!-- start: postbit_quote -->
+<a href="newreply.php?tid=224006&amp;replyto=1333978" title="Quote this message in a reply" class="postbit_quote postbit_mirage"><span>Reply</span></a>
+<!-- end: postbit_quote --><!-- start: postbit_multiquote -->
+<a href="javascript:void(0)" onclick="Thread.multiQuote(1333978); return false;" style="display: none;" id="multiquote_link_1333978" title="Quote this post" class="postbit_multiquote postbit_mirage"><span id="multiquote_1333978">Quote</span></a>
+<script type="text/javascript">
+//<!--
+	$('#multiquote_link_1333978').css("display", "");
+// -->
+</script>
+<!-- end: postbit_multiquote --><!-- start: postbit_report -->
+<a href="javascript:void(0)" onclick="Report.reportPost(1333978); return false;" title="Report this post to a moderator" class="postbit_report"><span>Report</span></a>
+<!-- end: postbit_report -->
+	</div>
+</div>
+</div>
+<!-- end: postbit -->
+	</div>
+</td></tr>
+		<tr>
+			<td class="tfoot">
+				<!-- start: showthread_search -->
+	<div class="float_right">
+		<form action="search.php" method="post">
+			<input type="hidden" name="action" value="thread" />
+			<input type="hidden" name="tid" value="224006" />
+			<input type="text" name="keywords" value="Enter Keywords" onfocus="if(this.value == 'Enter Keywords') { this.value = ''; }" onblur="if(this.value=='') { this.value='Enter Keywords'; }" class="textbox" size="25" />
+			<input type="submit" class="button" value="Search Thread" />
+		</form>
+	</div>
+<!-- end: showthread_search -->
+				<div>
+					<strong>&laquo; <a href="thread-224006-nextoldest.html">Next Oldest</a> | <a href="thread-224006-nextnewest.html">Next Newest</a> &raquo;</strong>
+				</div>
+			</td>
+		</tr>
+	</table>
+	<div class="float_left">
+		<!-- start: multipage -->
+<div class="pagination">
+<span class="pages">Pages (6):</span>
+<!-- start: multipage_page_current -->
+ <span class="pagination_current">1</span>
+<!-- end: multipage_page_current --><!-- start: multipage_page -->
+<a href="thread-224006-page-2.html" class="pagination_page">2</a>
+<!-- end: multipage_page --><!-- start: multipage_page -->
+<a href="thread-224006-page-3.html" class="pagination_page">3</a>
+<!-- end: multipage_page --><!-- start: multipage_page -->
+<a href="thread-224006-page-4.html" class="pagination_page">4</a>
+<!-- end: multipage_page --><!-- start: multipage_page -->
+<a href="thread-224006-page-5.html" class="pagination_page">5</a>
+<!-- end: multipage_page --><!-- start: multipage_end -->
+ <a href="thread-224006-page-6.html" class="pagination_last">6</a>
+<!-- end: multipage_end --><!-- start: multipage_nextpage -->
+<a href="thread-224006-page-2.html" class="pagination_next">Next &raquo;</a>
+<!-- end: multipage_nextpage -->
+</div>
+<!-- end: multipage -->
+	</div>
+	<div style="padding-top: 4px;" class="float_right">
+		<!-- start: showthread_newreply -->
+<a href="newreply.php?tid=224006" class="button new_reply_button"><span>New Reply</span></a>&nbsp;
+<!-- end: showthread_newreply -->
+	</div>
+	<br class="clear" />
+	<!-- start: showthread_quickreply -->
+
+<div id="quickreply_spinner" class="showthread_spinner" style="display: none"><img src="https://community.mybb.com/images/spinner.gif" /></div>
+<br />
+
+<form method="post" action="newreply.php?tid=224006&amp;processed=1" name="quick_reply_form" id="quick_reply_form">
+	<input type="hidden" name="my_post_key" value="2dc1a243a71d3265d1e318b99391921b" />
+	<input type="hidden" name="subject" value="RE: Emerald Extended [Multicolor, Modern &amp; Responsive | Incorporated Premium Plugins]" />
+	<input type="hidden" name="action" value="do_newreply" />
+	<input type="hidden" name="posthash" value="6958209bd9fee64ef1af903c55966ec8" id="posthash" />
+	<input type="hidden" name="quoted_ids" value="" id="quoted_ids" />
+	<input type="hidden" name="lastpid" id="lastpid" value="1354419" />
+	<input type="hidden" name="from_page" value="1" />
+	<input type="hidden" name="tid" value="224006" />
+	<input type="hidden" name="method" value="quickreply" />
+
+	<table border="0" cellspacing="0" cellpadding="5" class="tborder">
+		<thead>
+			<tr>
+				<td class="thead" colspan="2">
+					<div class="expcolimage"><img src="https://community.mybb.com/images/collapse.png" id="quickreply_img" class="expander" alt="[-]" title="[-]" /></div>
+					<div><strong>Quick Reply</strong></div>
+				</td>
+			</tr>
+		</thead>
+		<tbody style="" id="quickreply_e">
+			<tr>
+				<td class="trow1" valign="top" width="22%">
+					<strong>Message</strong><br />
+					<span class="smalltext">Type your reply to this message here.<br /><br />
+					<!-- start: showthread_quickreply_options_signature -->
+<label><input type="checkbox" class="checkbox" name="postoptions[signature]" value="1" checked="checked" />&nbsp;<strong>Signature</strong></label><br />
+<!-- end: showthread_quickreply_options_signature -->
+					<label><input type="checkbox" class="checkbox" name="postoptions[disablesmilies]" value="1" />&nbsp;<strong>Disable Smilies</strong></label></span>
+				</td>
+				<td class="trow1">
+					<div style="width: 95%">
+						<textarea style="width: 100%; padding: 4px; margin: 0;" rows="8" cols="80" name="message" id="message" tabindex="1"></textarea>
+					</div>
+					<div class="editor_control_bar" style="width: 95%; padding: 4px; margin-top: 3px; display: none;" id="quickreply_multiquote">
+						<span class="smalltext">
+							You have selected one or more posts to quote. <a href="./newreply.php?tid=224006&amp;load_all_quotes=1" onclick="return Thread.loadMultiQuoted();">Quote these posts now</a> or <a href="javascript:void(0)" onclick="Thread.clearMultiQuoted(); return false;">deselect them</a>.
+						</span>
+					</div>
+				</td>
+			</tr>
+			
+			<tr>
+				<td colspan="2" align="center" class="tfoot"><input type="submit" class="button" value="Post Reply" tabindex="2" accesskey="s" id="quick_reply_submit" /> <input type="submit" class="button" name="previewpost" value="Preview Post" tabindex="3" /></td>
+			</tr>
+		</tbody>
+	</table>
+</form>
+<!-- end: showthread_quickreply -->
+	
+	
+	<br />
+	<div class="float_left">
+		<ul class="thread_tools">
+			<!-- start: showthread_printthread -->
+<li class="printable"><a href="printthread.php?tid=224006">View a Printable Version</a></li>
+<!-- end: showthread_printthread -->
+			
+			<!-- start: showthread_subscription -->
+<li class="subscription_add"><a href="usercp.php?action=addsubscription&amp;tid=224006&amp;my_post_key=2dc1a243a71d3265d1e318b99391921b">Subscribe to this thread</a></li>
+<!-- end: showthread_subscription -->
+			
+		</ul>
+	</div>
+
+	<div class="float_right" style="text-align: right;">
+		
+		<!-- start: forumjump_advanced -->
+<form action="forumdisplay.php" method="get">
+<span class="smalltext"><strong>Forum Jump:</strong></span>
+<select name="fid" class="forumjump">
+<option value="-4">Private Messages</option>
+<option value="-3">User Control Panel</option>
+<option value="-5">Who's Online</option>
+<option value="-2">Search</option>
+<option value="-1">Forum Home</option>
+<!-- start: forumjump_bit -->
+<option value="175" > 1.8 Support</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="176" >-- General Support</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="182" >-- Installation and Upgrades Support</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="179" >-- Security Management and Support</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="180" >-- Merge System Support</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="201" > Extensions</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="73" >-- Plugins</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="102" >---- Plugin Releases</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="72" >---- Plugin Support</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="68" >---- Plugin Development</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="65" >---- Plugin Requests</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="103" >-- Themes</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="104" >---- Theme Releases</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="10" >---- Theme Support</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="105" >---- Theme Development</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="149" >---- Theme Requests</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="163" >-- Translations</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="169" >---- Translation Releases</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="21" >---- Translation Discussion and Development</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="8" > Resources</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="117" >-- MyCodes</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="132" >-- Third Party Integration</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="38" >-- Tutorials</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="161" > Development</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="165" >-- MyBB 1.8 Development</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="157" >---- 1.8 Bugs and Issues</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="183" >------ Pushed</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="184" >------ Rejected</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="198" >-- MyBB 1.x Development</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="167" >-- MyBB Merge System Development</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="199" >-- Suggestions and Feedback</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="194" >---- Planned Features</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="195" >---- Rejected Features</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="12" > Community</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="11" >-- General Discussion</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="133" >---- Web Development and Administration</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="137" >-- Showcase</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="159" >---- Unapproved Submissions</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="202" >-- Marketplace</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="203" >---- Plugins</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="204" selected="selected">---- Themes</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="190" >-- Requests / Services / Jobs</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="13" >-- Testing</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="206" > MyBB Project</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="205" >-- Blog Discussion</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="19" >-- MyBB Project &amp; Site Issues</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="135" >---- Private Inquiries</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="106" > Community Archive</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="143" >-- Archived Forums</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="155" >---- Archived Development and Support</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="156" >------ 1.8 Beta Support</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="171" >------ 1.8 Discussion</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="172" >------ Merge Discussion</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="138" >------ MyBB 1.6</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="127" >-------- 1.6 General Support</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="162" >-------- 1.6 Installation and Upgrades Support</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="153" >-------- 1.6 Security Management and Support</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="141" >-------- 1.6 Merge System Support</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="170" >-------- 1.6 Discussion</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="7" >-------- 1.6 Suggestions and Feedback</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="34" >---------- Included Suggestions / Feedback</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="125" >-------- 1.6 Discussion and Feedback</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="126" >-------- 1.6 Bugs and Issues</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="22" >-------- Dutch (Nederlands)</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="24" >-------- Spanish (Espanol)</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="152" >------ 2.0 Suggestions and Feedback</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="80" >------ MyBB 1.4</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="81" >-------- MyBB 1.4 General Support</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="87" >---------- Installation Help</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="97" >-------- MyBB Merge for 1.4 - Bug Reports</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="98" >---------- Fixed Bugs</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="99" >---------- Duplicate / Bogus Reports</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="111" >-------- MyBB Merge System for 1.4 (B4)</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="112" >---------- General Support</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="113" >---------- Bug Reports</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="114" >------------ Fixed Bugs</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="115" >------------ Duplicate/Bogus</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="95" >-------- Merge System for MyBB 1.4</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="96" >---------- MyBB Merge Support</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="166" >------ MyBB 2.0 Development</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="193" >-------- Implemented Features</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="3" >------ MyBB 1.2 Series</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="4" >-------- MyBB 1.2 General Support</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="6" >---------- Installation Help</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="75" >-------- Merge System for MyBB 1.2</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="76" >---------- General Support</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="77" >---------- Bug Reports</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="78" >------------ Fixed Bugs</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="79" >------------ Duplicate / Bogus Reports</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="74" >------ Archived Bug Reports</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="82" >-------- MyBB 1.4.x Bug Reports</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="88" >---------- Fixed Bugs</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="84" >---------- Duplicate or Bogus Bugs</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="49" >-------- MyBB 1.2.2</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="51" >-------- MyBB 1.2.3</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="55" >-------- MyBB 1.2.7</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="83" >-------- MyBB 1.4.0 Beta</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="90" >-------- MyBB 1.4.0</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="93" >-------- MyBB 1.4.1</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="100" >-------- MyBB 1.4.2</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="110" >-------- MyBB 1.4.4</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="116" >-------- MyBB 1.4.6</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="140" >---- Miscellaneous Archive</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="2" >------ Old Announcements</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="31" >-------- Announcements Discussion</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="17" >------ Showcase</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="91" >------ Requests/Services/Jobs</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="136" >------ Requests/Services/Jobs 2</option>
+<!-- end: forumjump_bit -->
+</select>
+<!-- start: gobutton -->
+<input type="submit" class="button" value="Go" />
+<!-- end: gobutton -->
+</form>
+<script type="text/javascript">
+$(".forumjump").on('change', function() {
+	var option = $(this).val();
+
+	if(option < 0)
+	{
+		window.location = 'forumdisplay.php?fid='+option;
+	}
+	else
+	{
+		window.location = 'forum-'+option+'.html';
+	}
+});
+</script>
+<!-- end: forumjump_advanced -->
+	</div>
+	<br class="clear" />
+	<!-- start: showthread_usersbrowsing -->
+<br />
+<span class="smalltext">Users browsing this thread: <a href="user-76958.html" title="Reading&hellip; (06:51 PM)">AmazOuz</a></span>
+<br />
+<!-- end: showthread_usersbrowsing -->
+	<!-- start: footer -->
+
+<br />
+<div id="footer">
+	<div class="upper">
+			
+			
+			<ul class="menu bottom_links">
+				<!-- start: footer_showteamlink -->
+<li><a href="showteam.php">Forum Team</a></li>
+<!-- end: footer_showteamlink -->
+				<li><a href="#top">Return to Top</a></li>
+				<li><a href="https://community.mybb.com/archive/index.php?thread-224006.html">Lite (Archive) Mode</a></li>
+				<li><a href="https://community.mybb.com/misc.php?action=markread&amp;my_post_key=2dc1a243a71d3265d1e318b99391921b">Mark all forums read</a></li>
+				<li><a href="https://community.mybb.com/misc.php?action=syndication">RSS Syndication</a></li>
+			</ul>
+	</div>
+	<div class="lower">
+			<span id="current_time"><strong>Current time:</strong> 2020-08-07, 06:51 PM</span>
+			<span id="copyright">
+				<!-- MyBB is free software developed and maintained by a volunteer community.
+					It would be much appreciated by the MyBB Group if you left the full copyright and "powered by" notice intact,
+					to show your support for MyBB.  If you choose to remove or modify the copyright below,
+					you may be refused support on the MyBB Community Forums.
+
+					This is free software, support us and we'll support you. -->
+				Powered By <a href="https://mybb.com" target="_blank">MyBB</a>, &copy; 2002-2020 <a href="https://mybb.com" target="_blank">MyBB Group</a>.
+				<!-- End powered by -->
+			</span>
+	</div>
+</div>
+</div></div>
+</div></div>
+<footer class="footer">
+        <div class="wrapper">
+            <nav class="footer__nav footer__nav--internal">
+                <ul class="footer__nav__links">
+                    <li class="footer__nav__links__item">
+                        <a href="https://mybb.com/about/" class="footer__nav__links__item__link">MyBB Project</a>
+                    </li>
+                    <li class="footer__nav__links__item">
+                        <a href="https://mybb.com/get-involved/" class="footer__nav__links__item__link">Get Involved</a>
+                    </li>
+                    <li class="footer__nav__links__item">
+                        <a href="https://mybb.com/support/" class="footer__nav__links__item__link">Support</a>
+                    </li>
+                    <li class="footer__nav__links__item">
+                        <a href="https://mybb.com/contact/" class="footer__nav__links__item__link">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+            <nav class="footer__nav footer__nav--social">
+                <ul class="footer__nav__links">
+                    <li class="footer__nav__links__item">
+                        <a href="https://github.com/mybb" class="footer__nav__links__item__link"><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg></span>
+ mybb</a>
+                    </li>
+                    <li class="footer__nav__links__item" style="display: none;">
+                        <a href="https://facebook.com/mybboard" class="footer__nav__links__item__link"><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M448 80v352c0 26.5-21.5 48-48 48h-85.3V302.8h60.6l8.7-67.6h-69.3V192c0-19.6 5.4-32.9 33.5-32.9H384V98.7c-6.2-.8-27.4-2.7-52.2-2.7-51.6 0-87 31.5-87 89.4v49.9H184v67.6h60.9V480H48c-26.5 0-48-21.5-48-48V80c0-26.5 21.5-48 48-48h352c26.5 0 48 21.5 48 48z"/></svg></span>
+ mybboard</a>
+                    </li>
+                    <li class="footer__nav__links__item">
+                        <a href="https://twitter.com/mybb" class="footer__nav__links__item__link"><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg></span>
+ @mybb</a>
+                    </li>
+                    <li class="footer__nav__links__item">
+                        <a href="https://twitter.com/mybbsecurity" class="footer__nav__links__item__link"><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg></span>
+ @mybbsecurity</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+    <div class="copyright">
+        Copyright &copy; 2002-2017 MyBB Group
+    </div>
+<!-- The following piece of code allows MyBB to run scheduled tasks. DO NOT REMOVE --><!-- End task image code -->
+<!-- start: global_dst_detection -->
+<script type="text/javascript">if(MyBB) { $([document, window]).on("load", function() { MyBB.detectDSTChange('0'); }); }</script>
+<!-- end: global_dst_detection -->
+</div>
+<script type="text/javascript" src="https://mybb.com/assets/js/vendor/headroom.min.js"></script>
+<script type="text/javascript">
+	$('html').addClass('js');
+
+	// Headroom
+	var myElement = document.querySelector("header");
+	// construct an instance of Headroom, passing the element
+	var headroom  = new Headroom(myElement, {
+		"offset": 75
+		}    
+	);
+	// initialise
+	headroom.init();
+
+	if (window.location.hash) {
+		headroom.unpin();
+	}
+</script>
+<!-- end: footer -->
+	<div id="thread_modes_popup" class="popup_menu" style="display: none;"><div class="popup_item_container"><a href="showthread.php?mode=linear&amp;tid=224006&amp;pid=1333477#pid1333477" class="popup_item">Linear Mode</a></div><div class="popup_item_container"><a href="showthread.php?mode=threaded&amp;tid=224006&amp;pid=1333477#pid1333477" class="popup_item">Threaded Mode</a></div></div>
+	<script type="text/javascript">
+	// <!--
+		if(use_xmlhttprequest == "1")
+		{
+			$("#thread_modes").popupMenu();
+		}
+	// -->
+	</script>
+	<script type="text/javascript">
+		var thread_deleted = "";
+		if(thread_deleted == "1")
+		{
+			$("#quick_reply_form, .new_reply_button, .thread_tools, .inline_rating").hide();
+			$("#moderator_options_selector option.option_mirage").attr("disabled","disabled");
+		}
+	</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.20.0/prism.min.js" data-manual integrity="sha256-3teItwIfMuVB74Alnxw/y5HAZ2irOsCULFff3EgbtEs=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.20.0/plugins/autoloader/prism-autoloader.min.js" integrity="sha256-3S2PESHNt0YNL65z57WuHPHIv12fibpBDXepyCGHftw=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.20.0/plugins/toolbar/prism-toolbar.min.js" integrity="sha256-7I/IdbPM17QdjqRNwpVYj4iDGAQw7ZFHy9RSSU1yvLE=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.20.0/plugins/show-language/prism-show-language.min.js" integrity="sha256-0bmqeC8t2qjXEHcAn8OQJOLGzK0jE1wjepM2DvpS0xg=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.20.0/plugins/line-numbers/prism-line-numbers.min.js" integrity="sha256-hep5s8952MqR7Y79JYfCXZD6vQjVHs7sOu/ZGrs1OEQ=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.20.0/plugins/show-invisibles/prism-show-invisibles.min.js" integrity="sha256-1baFoczEXwdtWBiZ6gbu7W1kn6XfPgKY4LkQQYNHTkM=" crossorigin="anonymous"></script>
+<script src="https://community.mybb.com/jscripts/dvz_code_tags/prismjsCodeFormatter.js" data-options='{"components_directory":"https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/prism\/1.20.0\/components\/"}' data-lang='{"dvz_code_tags_select_all":"Select All"}'></script>
+
+</body>
+</html>
+<!-- end: showthread -->
